@@ -3,6 +3,8 @@ site_description: An open-source structured curriculum to master Python from fou
 site_author: Deepak Nair
 repo_url: https://github.com/dhnair/master-python
 
+docs_dir: .
+
 theme:
   name: material
   features:
