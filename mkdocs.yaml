@@ -14,7 +14,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Volume 1: Volume1_Foundations_Index.md
+  - Volume 1: Volume1_Foundations.md
 
 # Future volumes (uncomment when ready)
 #  - Volume 2: Volume2_Web_Development.md
