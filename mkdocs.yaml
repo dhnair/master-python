@@ -1,0 +1,26 @@
+site_name: Master Python Curriculum
+site_description: An open-source structured curriculum to master Python from foundations to advanced topics.
+site_author: Deepak Nair
+repo_url: https://github.com/dhnair/master-python
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+    - content.code.annotate
+
+nav:
+  - Home: README.md
+  - Volume 1: Volume1_Foundations_Index.md
+
+# Future volumes (uncomment when ready)
+#  - Volume 2: Volume2_Web_Development.md
+#  - Volume 3: Volume3_Data_Science.md
+#  - Volume 4: Volume4_System_Automation_Devops.md
+#  - Volume 5: Volume5_Aplication_Development.md
+#  - Volume 6: Volume6_Advamced_Python.md
+#  - Volume 7: Volume7_DSA.md
+#  - Volume 8: Volume8_Quantum_Computing.md
