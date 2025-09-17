@@ -6,37 +6,37 @@ This is not just another tutorial series. It is a **structured curriculum** with
 
 -------------------------------------------------------------------
 
-## 📚 What You Will Learn
+## `📚` What You Will Learn
 
 The curriculum is divided into **8 volumes**:
 
 1. **Python Foundations** — Learn the basics of Python, data types, control flow, functions, file handling, and OOP.  
-   ✅ Fully available now.  
+   `✅` Fully available now.  
 
 2. **Python for Web Development** — Frameworks like Flask, Django, and FastAPI.  
-   🚧 Under construction.  
+   `🚧` Under construction.  
 
 3. **Python for Data Science** — NumPy, pandas, visualization, machine learning.  
-   🚧 Under construction.  
+   `🚧` Under construction.  
 
 4. **System Automation and DevOps** — Automation, CI/CD, cloud, and infrastructure scripting.  
-   🚧 Under construction.  
+   `🚧` Under construction.  
 
 5. **Application Development** — GUI, desktop, and cross-platform app development.  
-   🚧 Under construction.  
+   `🚧` Under construction.  
 
 6. **Advanced Python** — Concurrency, metaprogramming, design patterns, and performance.  
-   🚧 Under construction.  
+   `🚧` Under construction.  
 
 7. **Data Structures and Algorithms** — Core CS concepts implemented in Python.  
-   🚧 Under construction.  
+   `🚧` Under construction.  
 
 8. **Quantum Computing** — Explore quantum computing using Python libraries like Qiskit.  
-   🚧 Under construction.  
+   `🚧` Under construction.  
 
 -------------------------------------------------------------------
 
-## 🚀 How to Get Started
+## `🚀` How to Get Started
 
 - Begin with [Volume 1: Python Foundations](Volume1_Foundations_Index.md).  
 - Each chapter is **short and focused** on one concept.  
@@ -44,7 +44,7 @@ The curriculum is divided into **8 volumes**:
 
 -------------------------------------------------------------------
 
-## 🧑‍🤝‍🧑 Open Source and Community
+## `🧑‍🤝‍🧑` Open Source and Community
 
 This curriculum is **open-source** and will grow with community contributions.  
 You can help by fixing typos, improving explanations, or writing new chapters.
@@ -53,14 +53,14 @@ See the contributing guide here: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 -------------------------------------------------------------------
 
-## 📖 License
+## `📖` License
 
 - Educational content -> CC-BY-SA 4.0  
 - Code examples -> MIT License  
 
 -------------------------------------------------------------------
 
-## 👤 Author
+## `👤` Author
 
 Created and maintained by Deepak Nair  
 LinkedIn: https://www.linkedin.com/in/dhnair
