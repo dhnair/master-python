@@ -1,5 +1,5 @@
 # Capstone Project: File Manager CLI
-## Chapter 5: Search and Filters
+## Chapter 70: Search and Filters
 
 ### 1. Introduction
 A file manager should support **searching files** by name, extension, or size.  

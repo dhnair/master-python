@@ -4,23 +4,101 @@ site_author: Deepak Nair
 repo_url: https://github.com/dhnair/master-python
 
 theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.top
-    - navigation.sections
-    - content.code.copy
-    - content.code.annotate
+  name: mkdocs
 
 nav:
   - Home: index.md
-  - Volume 1: Volume1_Foundations.md
+  - Python Foundations:
+      - Overview: Volume1_Foundations.md
 
-# Future volumes (uncomment when ready)
-#  - Volume 2: Volume2_Web_Development.md
-#  - Volume 3: Volume3_Data_Science.md
-#  - Volume 4: Volume4_System_Automation_Devops.md
-#  - Volume 5: Volume5_Aplication_Development.md
-#  - Volume 6: Volume6_Advamced_Python.md
-#  - Volume 7: Volume7_DSA.md
-#  - Volume 8: Volume8_Quantum_Computing.md
+      - Part I - Getting Started:
+          - Installing Python on Windows: Volume1_Foundations/01_installing_python_on_windows.md
+          - Installing Python on macOS: Volume1_Foundations/02_installing_python_on_macos.md
+          - Installing Python on Linux (Ubuntu, Fedora, Arch): Volume1_Foundations/03_installing_python_on_linux_ubuntu_fedora_arch.md
+          - Setting up IDLE: Volume1_Foundations/04_setting_up_idle.md
+          - Installing and configuring VS Code: Volume1_Foundations/05_installing_and_configuring_vs_code.md
+          - Installing and configuring PyCharm: Volume1_Foundations/06_installing_and_configuring_pycharm.md
+          - Installing and configuring Jupyter Notebook: Volume1_Foundations/07_installing_and_configuring_jupyter_notebook.md
+          - Installing and configuring Anaconda: Volume1_Foundations/08_installing_and_configuring_anaconda.md
+          - Other IDEs and editors: Volume1_Foundations/09_other_ides_and_editors.md
+          - Using the Python REPL: Volume1_Foundations/10_using_the_python_repl.md
+          - Running Python scripts from the command line: Volume1_Foundations/11_running_python_scripts_from_the_command_line.md
+          - Using Python with different text editors: Volume1_Foundations/12_using_python_with_different_text_editors.md
+          - Understanding Python scripts vs modules: Volume1_Foundations/13_understanding_python_scripts_vs_modules.md
+          - First steps in debugging: Volume1_Foundations/14_first_steps_in_debugging.md
+          - Working with pip: Volume1_Foundations/15_working_with_pip.md
+          - Introduction to virtual environments: Volume1_Foundations/16_introduction_to_virtual_environments.md
+
+      - Part II - Core Language Basics:
+          - Variables and assignment rules: Volume1_Foundations/17_variables_and_assignment_rules.md
+          - Basic data types: Volume1_Foundations/18_basic_data_types.md
+          - Type conversion and casting: Volume1_Foundations/19_type_conversion_and_casting.md
+          - Operators: Volume1_Foundations/20_operators.md
+          - Working with strings: Volume1_Foundations/21_working_with_strings.md
+          - Escape characters and raw strings: Volume1_Foundations/22_escape_characters_and_raw_strings.md
+          - Lists: Volume1_Foundations/23_lists.md
+          - Tuples: Volume1_Foundations/24_tuples.md
+          - Sets: Volume1_Foundations/25_sets.md
+          - Dictionaries: Volume1_Foundations/26_dictionaries.md
+          - Booleans and logic: Volume1_Foundations/27_booleans_and_logic.md
+
+      - Part III - Control Flow:
+          - if statements: Volume1_Foundations/28_if_statements.md
+          - elif and else: Volume1_Foundations/29_elif_and_else.md
+          - Nested conditionals: Volume1_Foundations/30_nested_conditionals.md
+          - while loops: Volume1_Foundations/31_while_loops.md
+          - for loops: Volume1_Foundations/32_for_loops.md
+          - The range function: Volume1_Foundations/33_the_range_function.md
+          - 'Loop control: break, continue, pass': Volume1_Foundations/34_loop_control_break_continue_pass.md
+          - Nested loops: Volume1_Foundations/35_nested_loops.md
+          - Comprehensions: Volume1_Foundations/36_comprehensions.md
+
+      - Part IV - Functions and Modules:
+          - Defining and calling functions: Volume1_Foundations/37_defining_and_calling_functions.md
+          - Function arguments and return values: Volume1_Foundations/38_function_arguments_and_return_values.md
+          - Default and keyword arguments: Volume1_Foundations/39_default_and_keyword_arguments.md
+          - '*args and **kwargs': Volume1_Foundations/40_args_and_kwargs.md
+          - Scope and lifetime of variables: Volume1_Foundations/41_scope_and_lifetime_of_variables.md
+          - Importing modules: Volume1_Foundations/42_importing_modules.md
+          - Creating your own modules: Volume1_Foundations/43_creating_your_own_modules.md
+          - Virtual environments revisited: Volume1_Foundations/44_virtual_environments_revisited.md
+          - Installing packages with pip revisited: Volume1_Foundations/45_installing_packages_with_pip_revisited.md
+
+      - Part V - Working with Files and Errors:
+          - Reading text files: Volume1_Foundations/46_reading_text_files.md
+          - Writing text files: Volume1_Foundations/47_writing_text_files.md
+          - Working with binary files: Volume1_Foundations/48_working_with_binary_files.md
+          - Using context managers: Volume1_Foundations/49_using_context_managers.md
+          - Handling exceptions: Volume1_Foundations/50_handling_exceptions.md
+          - Using finally and else: Volume1_Foundations/51_using_finally_and_else.md
+          - Common built-in exceptions: Volume1_Foundations/52_common_built_in_exceptions.md
+
+      - Part VI - Practical Tools:
+          - Dates and times: Volume1_Foundations/53_dates_and_times.md
+          - Math operations: Volume1_Foundations/54_math_operations.md
+          - Working with JSON files: Volume1_Foundations/55_working_with_json_files.md
+          - Configuration files: Volume1_Foundations/56_configuration_files.md
+          - Environment variables: Volume1_Foundations/57_environment_variables.md
+
+      - Part VII - Object-Oriented Programming:
+          - What is Object-Oriented Programming?: Volume1_Foundations/58_what_is_object_oriented_programming.md
+          - Creating classes and objects: Volume1_Foundations/59_creating_classes_and_objects.md
+          - The __init__ constructor: Volume1_Foundations/60_the_init_constructor.md
+          - Instance vs class variables: Volume1_Foundations/61_instance_vs_class_variables.md
+          - Methods and behaviors: Volume1_Foundations/62_methods_and_behaviors.md
+          - Basic inheritance: Volume1_Foundations/63_basic_inheritance.md
+          - Encapsulation basics: Volume1_Foundations/64_encapsulation_basics.md
+          - 'Mini project: Student and Course Manager': Volume1_Foundations/65_mini_project_student_and_course_manager.md
+
+      - Part VIII - Capstone Project:
+          - Project Overview: Volume1_Foundations/66_project_overview.md
+          - Basic Structure: Volume1_Foundations/67_basic_structure.md
+          - File Operations: Volume1_Foundations/68_file_operations.md
+          - Directory Operations: Volume1_Foundations/69_directory_operations.md
+          - Search and Filters: Volume1_Foundations/70_search_and_filters.md
+          - Error Handling: Volume1_Foundations/71_error_handling.md
+          - Refactoring with OOP: Volume1_Foundations/72_refactoring_with_oop.md
+          - Enhancements: Volume1_Foundations/73_enhancements.md
+          - Testing and Debugging: Volume1_Foundations/74_testing_and_debugging.md
+          - Final Wrap-up: Volume1_Foundations/75_final_wrapup.md
+          - Reflections from the Capstone - Zen of Python: Volume1_Foundations/76_zen_of_python_reflections.md

@@ -1,5 +1,5 @@
 # Capstone Project: File Manager CLI
-## Chapter 2: Basic Structure
+## Chapter 67: Basic Structure
 
 ### 1. Introduction
 Before adding file operations, we need a **skeleton CLI structure**.  

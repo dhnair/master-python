@@ -1,5 +1,5 @@
 # Capstone Project: File Manager CLI
-## Chapter 7: Refactoring with OOP
+## Chapter 72: Refactoring with OOP
 
 ### 1. Introduction
 So far, our program has procedural functions.  

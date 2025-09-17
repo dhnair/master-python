@@ -1,5 +1,5 @@
 # Capstone Project: File Manager CLI
-## Chapter 8: Enhancements
+## Chapter 73: Enhancements
 
 ### 1. Introduction
 Once the core features work, we can add **enhancements** to improve usability.

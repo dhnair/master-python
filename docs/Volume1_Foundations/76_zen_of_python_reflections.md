@@ -1,5 +1,5 @@
 # Capstone Project: File Manager CLI
-## Chapter 11: Zen of Python — Reflections from the Capstone
+## Chapter 76: Reflections from the Capstone - Zen of Python
 
 ### 1. Introduction
 At the heart of Python lies a guiding philosophy known as **The Zen of Python**, written by Tim Peters.  
