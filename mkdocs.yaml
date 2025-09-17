@@ -13,7 +13,7 @@ theme:
     - content.code.annotate
 
 nav:
-  - Home: HOME.md
+  - Home: index.md
   - Volume 1: Volume1_Foundations_Index.md
 
 # Future volumes (uncomment when ready)
