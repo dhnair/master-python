@@ -1,14 +1,13 @@
-# Volume 1: Foundations
-## Chapter 17: Variables and Assignment Rules
+# Chapter 17: Variables and Assignment Rules
 
-### 1. Introduction
+## 1. Introduction
 A **variable** is a name that stores a value in memory.  
 In Python, you don’t need to declare a variable type — Python figures it out automatically.  
 This is called **dynamic typing**.  
 
 ---
 
-### 2. Creating Variables
+## 2. Creating Variables
 Assign a value to a variable with the `=` operator:
 
 ```python
@@ -19,7 +18,7 @@ pi = 3.14
 
 ---
 
-### 3. Variable Naming Rules
+## 3. Variable Naming Rules
 - Must start with a letter or underscore (`_`).  
 - Can contain letters, numbers, and underscores.  
 - Case-sensitive (`Name` and `name` are different).  
@@ -41,7 +40,7 @@ class = "Physics"   # reserved keyword
 
 ---
 
-### 4. Reassigning Variables
+## 4. Reassigning Variables
 You can change a variable’s value at any time:
 
 ```python
@@ -53,7 +52,7 @@ Here, `x` first held a number, then a string.
 
 ---
 
-### 5. Multiple Assignments
+## 5. Multiple Assignments
 You can assign multiple variables at once:
 
 ```python
@@ -68,7 +67,7 @@ x = y = z = 0
 
 ---
 
-### 6. Constants in Python
+## 6. Constants in Python
 Python does not have true constants, but by convention:  
 - Use ALL_CAPS names for values that should not change.  
 
@@ -79,7 +78,7 @@ MAX_USERS = 100
 
 ---
 
-### 7. Checking Variable Type
+## 7. Checking Variable Type
 Use the built-in `type()` function:
 
 ```python
@@ -89,7 +88,7 @@ print(type(x))   # <class 'int'>
 
 ---
 
-### 8. Deleting Variables
+## 8. Deleting Variables
 You can delete a variable with `del`:
 
 ```python
@@ -101,13 +100,13 @@ Trying to use `x` now will give an error.
 
 ---
 
-### 9. Best Practices
+## 9. Best Practices
 - Use descriptive names (`age` instead of `a`).  
 - Follow lowercase_with_underscores convention.  
 - Avoid single-letter names except in loops (`i`, `j`).  
 
 ---
 
-### 10. Next Steps
+## 10. Next Steps
 ✅ You now understand how variables work and the rules for naming them.  
 In the next chapter, we’ll explore Python’s **basic data types**.

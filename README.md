@@ -23,16 +23,16 @@ Each volume contains bite-sized chapters in Markdown format and ends with a caps
 
 This site is built with MkDocs (https://www.mkdocs.org/) and mkdocs-material (https://squidfunk.github.io/mkdocs-material/).
 
-### Build locally
+## Build locally
     pip install mkdocs mkdocs-material
     mkdocs serve
 
 Then open http://127.0.0.1:8000 in your browser.
 
-### Deploy manually
+## Deploy manually
     mkdocs gh-deploy
 
-### Auto-deploy
+## Auto-deploy
 Pushing to the main branch triggers a GitHub Actions workflow that auto-builds and deploys the site to GitHub Pages.
 
 -------------------------------------------------------------------

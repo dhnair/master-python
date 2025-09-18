@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 10: Using the Python REPL
+# Chapter 10: Using the Python REPL
 
-### 1. Introduction
+## 1. Introduction
 The **Python REPL (Read-Eval-Print Loop)** is an interactive shell where you can type Python commands and see results immediately.  
 It is one of the fastest ways to experiment, test small pieces of code, and learn Python.  
 
 ---
 
-### 2. Starting the REPL
+## 2. Starting the REPL
 Open a terminal (Linux/macOS) or Command Prompt (Windows) and type:
 
 ```bash
@@ -31,7 +30,7 @@ The `>>>` prompt means Python is ready for input.
 
 ---
 
-### 3. Running Basic Commands
+## 3. Running Basic Commands
 Try typing:
 
 ```python
@@ -58,7 +57,7 @@ Hello, Python!
 
 ---
 
-### 4. Using Variables
+## 4. Using Variables
 You can create variables and use them immediately:
 
 ```python
@@ -75,7 +74,7 @@ Output:
 
 ---
 
-### 5. Using Built-in Functions
+## 5. Using Built-in Functions
 The REPL supports all Python functions:
 
 ```python
@@ -90,7 +89,7 @@ Output:
 
 ---
 
-### 6. Getting Help
+## 6. Getting Help
 Inside the REPL, type:
 
 ```python
@@ -108,7 +107,7 @@ help(len)
 
 ---
 
-### 7. Exiting the REPL
+## 7. Exiting the REPL
 To exit, type:
 
 ```python
@@ -122,20 +121,20 @@ or press:
 
 ---
 
-### 8. Useful Tips
+## 8. Useful Tips
 - Use the **arrow keys** to scroll through command history.  
 - Press **Tab** to autocomplete variable names and functions.  
 - Use **Ctrl + L** (Linux/macOS) or **cls** command on Windows to clear the screen.  
 
 ---
 
-### 9. Why Use the REPL?
+## 9. Why Use the REPL?
 - Great for learning Python.  
 - Quick way to test ideas.  
 - Lightweight compared to opening an IDE.  
 
 ---
 
-### 10. Next Steps
+## 10. Next Steps
 ✅ You now know how to use the Python REPL to run code interactively.  
 In the next chapter, we’ll learn how to **run Python scripts from the command line**.

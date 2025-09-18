@@ -1,12 +1,11 @@
-# Volume 1: Foundations
-## Chapter 52: Common Built-in Exceptions
+# Chapter 52: Common Built-in Exceptions
 
-### 1. Introduction
+## 1. Introduction
 Python provides many built-in exception types. Knowing the most common ones helps write better error handling.
 
 ---
 
-### 2. Common Exceptions
+## 2. Common Exceptions
 - **ValueError** → wrong value
 ```python
 int("abc")  # ValueError
@@ -49,7 +48,7 @@ import nonexistent
 
 ---
 
-### 3. Handling Multiple Exceptions
+## 3. Handling Multiple Exceptions
 ```python
 try:
     result = 10 / 0
@@ -59,6 +58,6 @@ except (ZeroDivisionError, ValueError) as e:
 
 ---
 
-### 4. Next Steps
+## 4. Next Steps
 ✅ You now know common built-in exceptions.  
 Next: **Dates and times** in Python.

@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 1: Installing Python on Windows
+# Chapter 1: Installing Python on Windows
 
-### 1. Introduction
+## 1. Introduction
 Windows does not come with Python preinstalled.  
 To start programming, we must download, install, and configure the latest version of Python.  
 
 ---
 
-### 2. Downloading Python
+## 2. Downloading Python
 1. Open a web browser.  
 2. Go to the official Python download page:  
    [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)  
@@ -16,7 +15,7 @@ To start programming, we must download, install, and configure the latest versio
 
 ---
 
-### 3. Running the Installer
+## 3. Running the Installer
 1. Locate the downloaded file in your **Downloads** folder (example: `python-3.12.x-amd64.exe`).  
 2. Double-click the installer to run it.  
 3. On the first screen:  
@@ -26,7 +25,7 @@ To start programming, we must download, install, and configure the latest versio
 
 ---
 
-### 4. Custom Installation (Optional)
+## 4. Custom Installation (Optional)
 If you want more control:  
 - Choose **Customize installation**.  
 - Options you may enable:  
@@ -37,7 +36,7 @@ If you want more control:
 
 ---
 
-### 5. Verifying Installation
+## 5. Verifying Installation
 1. Open the Command Prompt (press `Win + R`, type `cmd`, press Enter).  
 2. Type:  
 
@@ -65,7 +64,7 @@ pip --version
 
 ---
 
-### 6. First Run of Python
+## 6. First Run of Python
 In Command Prompt, type:  
 
 ```bash
@@ -77,7 +76,7 @@ Type `exit()` or press `Ctrl + Z` then Enter to quit.
 
 ---
 
-### 7. Troubleshooting
+## 7. Troubleshooting
 - **‘python’ not recognized**:  
   - Try `py` instead.  
   - If that works, it means Python is installed but not added to PATH.  
@@ -92,13 +91,13 @@ Type `exit()` or press `Ctrl + Z` then Enter to quit.
 
 ---
 
-### 8. Uninstalling Python
+## 8. Uninstalling Python
 1. Open **Control Panel → Programs → Programs and Features**.  
 2. Find Python in the list.  
 3. Select it and click **Uninstall**.  
 
 ---
 
-### 9. Next Steps
+## 9. Next Steps
 ✅ Python is now installed on Windows.  
 In the next chapter, we will learn how to install Python on macOS.

@@ -1,7 +1,6 @@
-# Volume 1: Foundations
-## Chapter 27: Booleans and Logic
+# Chapter 27: Booleans and Logic
 
-### 1. Introduction
+## 1. Introduction
 A **boolean** is a data type with only two possible values: `True` or `False`.  
 Booleans are the foundation of decision-making in programming.  
 
@@ -9,7 +8,7 @@ In Python, booleans often appear as the result of **comparisons** or **logical o
 
 ---
 
-### 2. Boolean Values
+## 2. Boolean Values
 ```python
 x = True
 y = False
@@ -19,7 +18,7 @@ print(type(x))  # <class 'bool'>
 
 ---
 
-### 3. Comparisons that Return Booleans
+## 3. Comparisons that Return Booleans
 ```python
 print(5 > 3)   # True
 print(10 == 2) # False
@@ -28,7 +27,7 @@ print(7 <= 7)  # True
 
 ---
 
-### 4. The `bool()` Function
+## 4. The `bool()` Function
 Any value can be converted to a boolean using `bool()`.  
 
 - Falsy values (evaluated as `False`):  
@@ -51,7 +50,7 @@ print(bool([1, 2]))  # True
 
 ---
 
-### 5. Logical Operators
+## 5. Logical Operators
 Logical operators combine boolean values.
 
 ```python
@@ -65,7 +64,7 @@ print(not a)    # False
 
 ---
 
-### 6. Combining Comparisons
+## 6. Combining Comparisons
 You can use logical operators with comparisons:
 
 ```python
@@ -77,7 +76,7 @@ print(not(x == 10))       # False
 
 ---
 
-### 7. Operator Precedence with Booleans
+## 7. Operator Precedence with Booleans
 Order of evaluation:  
 1. `not`  
 2. `and`  
@@ -91,7 +90,7 @@ print(True or False and False)   # True (and is evaluated first)
 
 ---
 
-### 8. Identity and Membership in Boolean Contexts
+## 8. Identity and Membership in Boolean Contexts
 ```python
 fruits = ["apple", "banana"]
 
@@ -108,7 +107,7 @@ print(a is c)  # False
 
 ---
 
-### 9. Practical Examples
+## 9. Practical Examples
 ```python
 age = 18
 has_id = True
@@ -121,6 +120,6 @@ else:
 
 ---
 
-### 10. Next Steps
+## 10. Next Steps
 ✅ You now understand booleans, comparisons, and logical operators.  
 In the next chapter, we’ll explore **if statements**, the first step into control flow.

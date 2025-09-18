@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 35: Nested Loops
+# Chapter 35: Nested Loops
 
-### 1. Introduction
+## 1. Introduction
 A **nested loop** is a loop inside another loop.  
 They are useful when working with multi-dimensional data (like matrices), comparing items from two collections, or performing repeated tasks across multiple dimensions.
 
 ---
 
-### 2. Basic Nested for Loop
+## 2. Basic Nested for Loop
 ```python
 for i in range(3):
     for j in range(2):
@@ -26,7 +25,7 @@ i=2, j=1
 
 ---
 
-### 3. Nested while Loops
+## 3. Nested while Loops
 ```python
 i = 1
 while i <= 2:
@@ -39,7 +38,7 @@ while i <= 2:
 
 ---
 
-### 4. Mixed Loops (for + while)
+## 4. Mixed Loops (for + while)
 ```python
 for char in ["A", "B"]:
     i = 0
@@ -50,7 +49,7 @@ for char in ["A", "B"]:
 
 ---
 
-### 5. Nested Loops with Lists (Matrices)
+## 5. Nested Loops with Lists (Matrices)
 ```python
 matrix = [[1, 2], [3, 4], [5, 6]]
 for row in matrix:
@@ -70,7 +69,7 @@ Output:
 
 ---
 
-### 6. Using break and continue in Nested Loops
+## 6. Using break and continue in Nested Loops
 `break` exits the innermost loop; `continue` skips to the next iteration of the innermost loop.
 
 ```python
@@ -83,7 +82,7 @@ for i in range(3):
 
 ---
 
-### 7. Practical Example — Multiplication Table
+## 7. Practical Example — Multiplication Table
 ```python
 for i in range(1, 4):
     for j in range(1, 4):
@@ -100,18 +99,18 @@ Output:
 
 ---
 
-### 8. Performance Considerations
+## 8. Performance Considerations
 Nested loops increase time complexity multiplicatively (e.g., O(n*m) or O(n^2) for two nested loops of size n). For large inputs, consider algorithmic improvements or using libraries (NumPy, itertools).
 
 ---
 
-### 9. Common Mistakes and Tips
+## 9. Common Mistakes and Tips
 - Forgetting to reset inner-loop counters in `while` loops.  
 - Excessive nesting → harder to read and maintain. Break logic into functions when nesting gets deep.  
 - Remember to maintain correct indentation.  
 
 ---
 
-### 10. Next Steps
+## 10. Next Steps
 ✅ You now understand nested loops and how to use them effectively.  
 Next chapter: **Comprehensions**, a concise way to create collections in Python.

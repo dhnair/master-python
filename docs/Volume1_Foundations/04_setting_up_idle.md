@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 4: Setting up IDLE
+# Chapter 4: Setting up IDLE
 
-### 1. Introduction
+## 1. Introduction
 IDLE (Integrated Development and Learning Environment) is Python’s simple built-in editor.  
 It is included with most Python installations and is a great starting point for beginners.  
 
 ---
 
-### 2. Checking if IDLE is Installed
+## 2. Checking if IDLE is Installed
 Open a terminal (macOS/Linux) or Command Prompt (Windows) and type:
 
 ```bash
@@ -19,13 +18,13 @@ idle3
 
 ---
 
-### 3. Installing IDLE on Windows
+## 3. Installing IDLE on Windows
 - IDLE is automatically installed when you install Python from [python.org](https://www.python.org).  
 - If you unchecked IDLE during installation, run the installer again and enable the **tcl/tk and IDLE** option.  
 
 ---
 
-### 4. Installing IDLE on macOS
+## 4. Installing IDLE on macOS
 - If you installed Python using the **official .pkg installer**, IDLE is already included.  
 - If using **Homebrew**, install IDLE with:  
 
@@ -35,7 +34,7 @@ brew install python-tk
 
 ---
 
-### 5. Installing IDLE on Linux
+## 5. Installing IDLE on Linux
 For Ubuntu/Debian:
 
 ```bash
@@ -57,7 +56,7 @@ sudo pacman -S tk
 
 ---
 
-### 6. Starting IDLE
+## 6. Starting IDLE
 - On Windows: search for **IDLE** in the Start Menu.  
 - On macOS/Linux: run `idle3` from Terminal.  
 
@@ -65,7 +64,7 @@ When IDLE opens, you will see the **Python Shell** (interactive REPL).
 
 ---
 
-### 7. Running Your First Program
+## 7. Running Your First Program
 1. In IDLE, go to **File → New File**.  
 2. Type this program:
 
@@ -83,14 +82,14 @@ Hello, Python from IDLE!
 
 ---
 
-### 8. Customizing IDLE
+## 8. Customizing IDLE
 - **Fonts and Colors**: Go to **Options → Configure IDLE**.  
 - **Themes**: Switch to dark mode or change syntax colors.  
 - **Indentation**: Adjust spaces per tab for coding style.  
 
 ---
 
-### 9. Troubleshooting
+## 9. Troubleshooting
 - **IDLE not opening**: Ensure `tkinter` is installed.  
   On Ubuntu/Debian:
 
@@ -106,6 +105,6 @@ idle3.12
 
 ---
 
-### 10. Next Steps
+## 10. Next Steps
 ✅ You now have IDLE set up and running.  
 In the next chapter, we will set up **VS Code**, a more powerful editor for Python development.

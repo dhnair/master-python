@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 33: The range() Function
+# Chapter 33: The range() Function
 
-### 1. Introduction
+## 1. Introduction
 The `range()` function is commonly used in **for loops** to generate a sequence of numbers.  
 It doesn’t actually create a full list in memory but instead produces numbers on demand, making it efficient.  
 
 ---
 
-### 2. Basic Usage
+## 2. Basic Usage
 `range(stop)` generates numbers from **0 up to stop (exclusive)**.
 
 ```python
@@ -26,7 +25,7 @@ Output:
 
 ---
 
-### 3. Specifying Start and Stop
+## 3. Specifying Start and Stop
 You can also give a starting value:
 
 ```python
@@ -44,7 +43,7 @@ Output:
 
 ---
 
-### 4. Using Step
+## 4. Using Step
 The third parameter is the **step** (increment).
 
 ```python
@@ -63,7 +62,7 @@ Output:
 
 ---
 
-### 5. Negative Steps
+## 5. Negative Steps
 You can loop backwards with a negative step.
 
 ```python
@@ -82,7 +81,7 @@ Output:
 
 ---
 
-### 6. Using range() Outside of Loops
+## 6. Using range() Outside of Loops
 You can convert a range to a list or tuple:
 
 ```python
@@ -92,7 +91,7 @@ print(tuple(range(3)))  # (0, 1, 2)
 
 ---
 
-### 7. Checking Membership in range
+## 7. Checking Membership in range
 You can check if a number is inside a range:
 
 ```python
@@ -102,7 +101,7 @@ print(15 in range(10))   # False
 
 ---
 
-### 8. Large Ranges are Efficient
+## 8. Large Ranges are Efficient
 Even huge ranges don’t take up memory:
 
 ```python
@@ -115,7 +114,7 @@ print(r[100])     # 101
 
 ---
 
-### 9. Common Mistakes
+## 9. Common Mistakes
 - Forgetting that the **stop value is excluded**:
   ```python
   for i in range(5):
@@ -131,7 +130,7 @@ print(r[100])     # 101
 
 ---
 
-### 10. Practical Examples
+## 10. Practical Examples
 - Printing even numbers:
 ```python
 for i in range(0, 11, 2):
@@ -147,6 +146,6 @@ print("Go!")
 
 ---
 
-### 11. Next Steps
+## 11. Next Steps
 ✅ You now understand how to use `range()` with start, stop, and step values.  
 In the next chapter, we’ll look at **loop control statements** like `break`, `continue`, and `pass`.

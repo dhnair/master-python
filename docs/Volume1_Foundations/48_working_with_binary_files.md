@@ -1,12 +1,11 @@
-# Volume 1: Foundations
-## Chapter 48: Working with Binary Files
+# Chapter 48: Working with Binary Files
 
-### 1. Introduction
+## 1. Introduction
 Text files store characters, but binary files store bytes. Examples include images, executables, and audio files.
 
 ---
 
-### 2. Reading Binary Files
+## 2. Reading Binary Files
 ```python
 with open("image.jpg", "rb") as f:
     data = f.read()
@@ -15,7 +14,7 @@ with open("image.jpg", "rb") as f:
 
 ---
 
-### 3. Writing Binary Files
+## 3. Writing Binary Files
 ```python
 with open("copy.jpg", "wb") as f:
     f.write(data)
@@ -23,7 +22,7 @@ with open("copy.jpg", "wb") as f:
 
 ---
 
-### 4. Copying Files
+## 4. Copying Files
 ```python
 with open("image.jpg", "rb") as src:
     with open("copy.jpg", "wb") as dst:
@@ -32,7 +31,7 @@ with open("image.jpg", "rb") as src:
 
 ---
 
-### 5. When to Use Binary Mode
+## 5. When to Use Binary Mode
 - Images  
 - Audio files  
 - Pickled objects  
@@ -40,6 +39,6 @@ with open("image.jpg", "rb") as src:
 
 ---
 
-### 6. Next Steps
+## 6. Next Steps
 ✅ You now know how to work with binary files.  
 Next: **Using context managers**.

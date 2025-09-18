@@ -1,12 +1,12 @@
 # Capstone Project: File Manager CLI
 ## Chapter 70: Search and Filters
 
-### 1. Introduction
+## 1. Introduction
 A file manager should support **searching files** by name, extension, or size.  
 
 ---
 
-### 2. Searching by Name
+## 2. Searching by Name
 ```python
 def search_by_name(path, name):
     for root, dirs, files in os.walk(path):
@@ -17,7 +17,7 @@ def search_by_name(path, name):
 
 ---
 
-### 3. Filtering by Extension
+## 3. Filtering by Extension
 ```python
 def search_by_extension(path, extension):
     for root, dirs, files in os.walk(path):
@@ -28,7 +28,7 @@ def search_by_extension(path, extension):
 
 ---
 
-### 4. Filtering by Size
+## 4. Filtering by Size
 ```python
 def search_by_size(path, min_size):
     for root, dirs, files in os.walk(path):
@@ -40,7 +40,7 @@ def search_by_size(path, min_size):
 
 ---
 
-### 5. Integrating with CLI
+## 5. Integrating with CLI
 ```python
 if args.command == "search":
     search_by_name(".", args.path)
@@ -48,6 +48,6 @@ if args.command == "search":
 
 ---
 
-### 6. Next Steps
+## 6. Next Steps
 ✅ We can now search and filter files.  
 Next: **Error handling** to make the program more robust.

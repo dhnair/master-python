@@ -1,14 +1,13 @@
-# Volume 1: Foundations
-## Chapter 13: Understanding Python Scripts vs Modules
+# Chapter 13: Understanding Python Scripts vs Modules
 
-### 1. Introduction
+## 1. Introduction
 In Python, you will often hear the terms **script** and **module**.  
 They are both Python files, but they serve slightly different purposes.  
 Understanding this difference is important when you start organizing larger projects.  
 
 ---
 
-### 2. What is a Script?
+## 2. What is a Script?
 - A **script** is a Python file meant to be run directly.  
 - It usually performs a specific task when executed.  
 - Example: `hello.py`  
@@ -31,7 +30,7 @@ Hello, this is a script!
 
 ---
 
-### 3. What is a Module?
+## 3. What is a Module?
 - A **module** is a Python file that provides functions, classes, or variables for other Python files to use.  
 - Instead of running it directly, you **import** it.  
 
@@ -57,7 +56,7 @@ Output:
 
 ---
 
-### 4. Using `__name__ == "__main__"`
+## 4. Using `__name__ == "__main__"`
 Sometimes a file can act as **both a script and a module**.  
 This is done using the special variable `__name__`.
 
@@ -99,7 +98,7 @@ Hello, Alice
 
 ---
 
-### 5. Built-in Modules
+## 5. Built-in Modules
 Python comes with many built-in modules.  
 Example:
 
@@ -116,7 +115,7 @@ Output:
 
 ---
 
-### 6. Creating Your Own Modules
+## 6. Creating Your Own Modules
 - Any `.py` file can be a module.  
 - Keep related functions together in one file.  
 - Example: `geometry.py` for shapes, `strings.py` for text utilities.  
@@ -124,13 +123,13 @@ Output:
 
 ---
 
-### 7. Why the Distinction Matters
+## 7. Why the Distinction Matters
 - **Scripts** → run tasks.  
 - **Modules** → provide reusable code.  
 - Understanding this distinction helps organize code into **projects** with many files.  
 
 ---
 
-### 8. Next Steps
+## 8. Next Steps
 ✅ You now understand the difference between Python scripts and modules.  
 In the next chapter, we’ll cover **debugging basics** to help you fix errors in your programs.

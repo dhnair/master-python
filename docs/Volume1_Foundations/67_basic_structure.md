@@ -1,13 +1,13 @@
 # Capstone Project: File Manager CLI
 ## Chapter 67: Basic Structure
 
-### 1. Introduction
+## 1. Introduction
 Before adding file operations, we need a **skeleton CLI structure**.  
 This will allow the program to accept commands and arguments from the terminal.
 
 ---
 
-### 2. Using argparse
+## 2. Using argparse
 We’ll use Python’s `argparse` library for handling command-line arguments.
 
 ```python
@@ -39,7 +39,7 @@ Path: .
 
 ---
 
-### 3. Project Structure
+## 3. Project Structure
 ```
 capstone_file_manager/
     file_manager.py
@@ -47,6 +47,6 @@ capstone_file_manager/
 
 ---
 
-### 4. Next Steps
+## 4. Next Steps
 ✅ Now we have a basic CLI structure that accepts commands.  
 Next: **Implementing file operations** (read, write, delete).

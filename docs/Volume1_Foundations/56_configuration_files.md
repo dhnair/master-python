@@ -1,12 +1,11 @@
-# Volume 1: Foundations
-## Chapter 56: Configuration Files
+# Chapter 56: Configuration Files
 
-### 1. Introduction
+## 1. Introduction
 Configuration files store program settings. Python supports multiple formats like `.ini`, `.yaml`, `.json`, and environment variables.
 
 ---
 
-### 2. Using INI Files with configparser
+## 2. Using INI Files with configparser
 ```python
 import configparser
 
@@ -25,7 +24,7 @@ password = secret
 
 ---
 
-### 3. Writing INI Files
+## 3. Writing INI Files
 ```python
 config["NEW"] = {"key": "value"}
 with open("settings.ini", "w") as f:
@@ -34,7 +33,7 @@ with open("settings.ini", "w") as f:
 
 ---
 
-### 4. JSON Config Files
+## 4. JSON Config Files
 ```python
 import json
 with open("config.json") as f:
@@ -44,7 +43,7 @@ print(cfg)
 
 ---
 
-### 5. YAML Config Files (via PyYAML)
+## 5. YAML Config Files (via PyYAML)
 ```python
 import yaml
 with open("config.yaml") as f:
@@ -54,13 +53,13 @@ print(cfg)
 
 ---
 
-### 6. Best Practices
+## 6. Best Practices
 - Keep secrets (like passwords) out of config files.  
 - Use environment variables for sensitive info.  
 - Document your config structure.  
 
 ---
 
-### 7. Next Steps
+## 7. Next Steps
 ✅ You now know how to use configuration files.  
 Next: **Environment variables**.

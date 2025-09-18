@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 31: while Loops
+# Chapter 31: while Loops
 
-### 1. Introduction
+## 1. Introduction
 A **while loop** is used to repeat a block of code as long as a condition is true.  
 It is useful when you don’t know in advance how many times to repeat an action.  
 
 ---
 
-### 2. Basic while Loop
+## 2. Basic while Loop
 ```python
 count = 1
 
@@ -27,7 +26,7 @@ Count: 5
 
 ---
 
-### 3. Infinite Loops
+## 3. Infinite Loops
 If the condition never becomes false, the loop runs forever.
 
 ```python
@@ -39,7 +38,7 @@ while True:
 
 ---
 
-### 4. Using a Break Condition
+## 4. Using a Break Condition
 Always ensure there’s a way for the loop to end.
 
 ```python
@@ -53,7 +52,7 @@ while x < 10:
 
 ---
 
-### 5. Using else with while
+## 5. Using else with while
 The `else` block runs when the loop ends normally (not by `break`).
 
 ```python
@@ -75,7 +74,7 @@ Loop finished successfully
 
 ---
 
-### 6. Nested while Loops
+## 6. Nested while Loops
 You can put a while loop inside another while loop.
 
 ```python
@@ -90,14 +89,14 @@ while i <= 2:
 
 ---
 
-### 7. Common Mistakes
+## 7. Common Mistakes
 - Forgetting to update the loop variable → infinite loop.  
 - Using `=` instead of `==` in the condition.  
 - Forgetting the colon (`:`) after the condition.  
 
 ---
 
-### 8. Practical Examples
+## 8. Practical Examples
 - Countdown timer:
 
 ```python
@@ -119,13 +118,13 @@ print("Access granted")
 
 ---
 
-### 9. When to Use while Loops
+## 9. When to Use while Loops
 - When the number of iterations is **unknown** ahead of time.  
 - For waiting on user input, file availability, or network events.  
 - For loops that depend on conditions instead of a fixed range.  
 
 ---
 
-### 10. Next Steps
+## 10. Next Steps
 ✅ You now know how to use while loops, avoid infinite loops, and apply break/else.  
 In the next chapter, we’ll explore **for loops**, which are often used when the number of iterations is known.

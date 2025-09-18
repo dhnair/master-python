@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 2: Installing Python on macOS
+# Chapter 2: Installing Python on macOS
 
-### 1. Introduction
+## 1. Introduction
 macOS includes a system version of Python, but it is often outdated and should not be used for development.  
 It is recommended to install the latest stable Python release separately.  
 
 ---
 
-### 2. Checking the Current Python Version
+## 2. Checking the Current Python Version
 Open **Terminal** (press `Cmd + Space`, type `Terminal`, press Enter) and run:  
 
 ```bash
@@ -23,7 +22,7 @@ pip3 --version
 
 ---
 
-### 3. Downloading the Official Installer
+## 3. Downloading the Official Installer
 1. Open a web browser.  
 2. Visit the official download page: [https://www.python.org/downloads/macos/](https://www.python.org/downloads/macos/)  
 3. The site will suggest the latest stable version (e.g., Python 3.12.x).  
@@ -31,7 +30,7 @@ pip3 --version
 
 ---
 
-### 4. Installing with the .pkg Installer
+## 4. Installing with the .pkg Installer
 1. Locate the downloaded file in **Downloads** (example: `python-3.12.x-macosx10.9.pkg`).  
 2. Double-click the `.pkg` file.  
 3. Follow the prompts:  
@@ -41,7 +40,7 @@ pip3 --version
 
 ---
 
-### 5. Alternative: Installing with Homebrew
+## 5. Alternative: Installing with Homebrew
 If you prefer the Homebrew package manager:  
 
 1. Install Homebrew (if not already installed):  
@@ -65,7 +64,7 @@ pip3 --version
 
 ---
 
-### 6. Verifying Installation
+## 6. Verifying Installation
 Check that Python and pip are working:  
 
 ```bash
@@ -82,7 +81,7 @@ pip 23.x.x
 
 ---
 
-### 7. Troubleshooting
+## 7. Troubleshooting
 - **Command not found**: Restart Terminal or confirm the path with:  
 
 ```bash
@@ -104,7 +103,7 @@ brew reinstall python          # if using Homebrew
 
 ---
 
-### 8. Uninstalling Python
+## 8. Uninstalling Python
 - If installed via the `.pkg` file, manually remove from `/Library/Frameworks/Python.framework/Versions/`.  
 - If installed with Homebrew, run:  
 
@@ -114,6 +113,6 @@ brew uninstall python
 
 ---
 
-### 9. Next Steps
+## 9. Next Steps
 ✅ Python is now installed on macOS.  
 In the next chapter, we will install Python on **Linux distributions**.

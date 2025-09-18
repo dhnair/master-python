@@ -1,14 +1,13 @@
-# Volume 1: Foundations
-## Chapter 14: First Steps in Debugging
+# Chapter 14: First Steps in Debugging
 
-### 1. Introduction
+## 1. Introduction
 **Debugging** is the process of finding and fixing errors (bugs) in your code.  
 Every programmer encounters bugs — they are a normal part of coding.  
 In this chapter, we’ll learn some basic debugging techniques in Python.  
 
 ---
 
-### 2. Types of Errors
+## 2. Types of Errors
 1. **Syntax Errors** → Mistakes in code structure.  
    Example:
 
@@ -45,7 +44,7 @@ In this chapter, we’ll learn some basic debugging techniques in Python.
 
 ---
 
-### 3. Using Print Statements
+## 3. Using Print Statements
 The simplest debugging method: insert `print()` statements.  
 
 Example:
@@ -61,7 +60,7 @@ Output shows the values before the crash.
 
 ---
 
-### 4. Using the Built-in `pdb` Debugger
+## 4. Using the Built-in `pdb` Debugger
 Python includes a command-line debugger called **pdb**.  
 
 Run your script with:
@@ -79,14 +78,14 @@ Commands inside pdb:
 
 ---
 
-### 5. Debugging in IDLE
+## 5. Debugging in IDLE
 - Open your script in **IDLE**.  
 - Go to **Debug → Debugger**.  
 - This opens a panel where you can step through code and inspect variables.  
 
 ---
 
-### 6. Debugging in VS Code
+## 6. Debugging in VS Code
 1. Open your script in VS Code.  
 2. Click in the margin next to a line to add a **breakpoint**.  
 3. Press **F5** or go to **Run → Start Debugging**.  
@@ -95,7 +94,7 @@ Commands inside pdb:
 
 ---
 
-### 7. Debugging in PyCharm
+## 7. Debugging in PyCharm
 1. Open your script in PyCharm.  
 2. Right-click and choose **Debug** instead of Run.  
 3. Use breakpoints (red dots) to pause execution.  
@@ -103,7 +102,7 @@ Commands inside pdb:
 
 ---
 
-### 8. Common Debugging Tips
+## 8. Common Debugging Tips
 - Read error messages carefully — they tell you the file, line, and type of error.  
 - Start by fixing the **first error** in the traceback.  
 - Use small test cases to isolate problems.  
@@ -111,6 +110,6 @@ Commands inside pdb:
 
 ---
 
-### 9. Next Steps
+## 9. Next Steps
 ✅ You now know the basics of debugging in Python.  
 In the next chapter, we’ll learn about **pip**, Python’s package manager, which lets you install and use external libraries.

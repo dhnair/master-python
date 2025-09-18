@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 7: Installing and Configuring Jupyter Notebook
+# Chapter 7: Installing and Configuring Jupyter Notebook
 
-### 1. Introduction
+## 1. Introduction
 Jupyter Notebook is an interactive coding environment widely used in data science, machine learning, and education.  
 It allows you to write and run Python code in small cells, mix code with text, and create rich documents with charts and equations.  
 
 ---
 
-### 2. Installing Jupyter with pip
+## 2. Installing Jupyter with pip
 If you already have Python and pip installed, you can install Jupyter directly:
 
 ```bash
@@ -22,7 +21,7 @@ jupyter --version
 
 ---
 
-### 3. Installing Jupyter with Anaconda
+## 3. Installing Jupyter with Anaconda
 If you installed Anaconda (Chapter 8), Jupyter comes preinstalled.  
 You can update it with:
 
@@ -32,7 +31,7 @@ conda install jupyter
 
 ---
 
-### 4. Starting Jupyter Notebook
+## 4. Starting Jupyter Notebook
 1. Open a terminal (Linux/macOS) or Command Prompt (Windows).  
 2. Type:
 
@@ -45,7 +44,7 @@ jupyter notebook
 
 ---
 
-### 5. Creating Your First Notebook
+## 5. Creating Your First Notebook
 1. In the browser interface, click **New → Python 3 (ipykernel)**.  
 2. A blank notebook will open.  
 3. In the first cell, type:
@@ -63,7 +62,7 @@ Hello, Jupyter!
 
 ---
 
-### 6. Using Markdown in Jupyter
+## 6. Using Markdown in Jupyter
 You can add formatted text to your notebooks:  
 1. Change a cell type to **Markdown**.  
 2. Enter text like:
@@ -78,7 +77,7 @@ You can add formatted text to your notebooks:
 
 ---
 
-### 7. Useful Keyboard Shortcuts
+## 7. Useful Keyboard Shortcuts
 - **Shift + Enter** → Run current cell.  
 - **A** → Insert cell above.  
 - **B** → Insert cell below.  
@@ -88,7 +87,7 @@ You can add formatted text to your notebooks:
 
 ---
 
-### 8. Customizing Jupyter Notebook
+## 8. Customizing Jupyter Notebook
 - Change the working directory by launching Jupyter from the desired folder.  
 - Install themes with `pip install jupyterthemes`.  
 - Example:
@@ -99,7 +98,7 @@ jt -t monokai
 
 ---
 
-### 9. Troubleshooting
+## 9. Troubleshooting
 - **Jupyter not found**: Make sure Python Scripts folder is in PATH (`~/.local/bin` on Linux/macOS, `C:\Users\<name>\AppData\Roaming\Python\Python312\Scripts` on Windows).  
 - **Port already in use**: Start with a different port:
 
@@ -111,6 +110,6 @@ jupyter notebook --port 8889
 
 ---
 
-### 10. Next Steps
+## 10. Next Steps
 ✅ Jupyter Notebook is now installed and running.  
 In the next chapter, we will install and configure **Anaconda**, which includes Jupyter and many other useful data science tools.

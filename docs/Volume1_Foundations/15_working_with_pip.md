@@ -1,14 +1,13 @@
-# Volume 1: Foundations
-## Chapter 15: Working with pip
+# Chapter 15: Working with pip
 
-### 1. Introduction
+## 1. Introduction
 **pip** is Python’s default package manager.  
 It allows you to install, update, and remove external libraries (packages) that extend Python’s functionality.  
 Most Python projects use pip to manage dependencies.  
 
 ---
 
-### 2. Checking if pip is Installed
+## 2. Checking if pip is Installed
 Open a terminal or Command Prompt and run:
 
 ```bash
@@ -31,7 +30,7 @@ If you get an error, pip may not be installed.
 
 ---
 
-### 3. Installing pip (if missing)
+## 3. Installing pip (if missing)
 - On **Windows**, reinstall Python with the **pip** option checked.  
 - On **Linux/macOS**, install with:  
 
@@ -43,7 +42,7 @@ brew install pipx && pipx ensurepath # macOS with Homebrew
 
 ---
 
-### 4. Installing a Package
+## 4. Installing a Package
 To install a package:
 
 ```bash
@@ -54,7 +53,7 @@ This installs the `requests` library for making HTTP requests.
 
 ---
 
-### 5. Using Installed Packages
+## 5. Using Installed Packages
 After installation, you can import the package in Python:
 
 ```python
@@ -65,7 +64,7 @@ print(response.status_code)
 
 ---
 
-### 6. Listing Installed Packages
+## 6. Listing Installed Packages
 Check what’s installed:
 
 ```bash
@@ -82,7 +81,7 @@ requests 2.31.0
 
 ---
 
-### 7. Upgrading Packages
+## 7. Upgrading Packages
 Update a package to the latest version:
 
 ```bash
@@ -97,7 +96,7 @@ pip install --upgrade pip
 
 ---
 
-### 8. Uninstalling Packages
+## 8. Uninstalling Packages
 Remove a package:
 
 ```bash
@@ -106,7 +105,7 @@ pip uninstall requests
 
 ---
 
-### 9. Requirements Files
+## 9. Requirements Files
 For larger projects, dependencies are stored in a file called `requirements.txt`.
 
 - Create one:
@@ -123,13 +122,13 @@ pip install -r requirements.txt
 
 ---
 
-### 10. Troubleshooting
+## 10. Troubleshooting
 - **Permission denied (Linux/macOS)** → Use `pip install --user <package>`.  
 - **pip installs wrong version** → Make sure you use `pip3` with Python 3.  
 - **PATH issues** → Add the Python `Scripts/` folder to PATH.  
 
 ---
 
-### 11. Next Steps
+## 11. Next Steps
 ✅ You now know how to install and manage packages with pip.  
 In the next chapter, we’ll explore **virtual environments**, which let you manage project-specific dependencies.

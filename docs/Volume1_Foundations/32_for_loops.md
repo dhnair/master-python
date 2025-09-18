@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 32: for Loops
+# Chapter 32: for Loops
 
-### 1. Introduction
+## 1. Introduction
 A **for loop** is used to iterate over a sequence of items (like a list, string, or range).  
 It is the most common looping construct in Python when you know the number of iterations in advance.  
 
 ---
 
-### 2. Basic for Loop
+## 2. Basic for Loop
 ```python
 fruits = ["apple", "banana", "cherry"]
 
@@ -24,7 +23,7 @@ cherry
 
 ---
 
-### 3. Iterating Over Strings
+## 3. Iterating Over Strings
 Strings are sequences, so you can loop through characters:
 
 ```python
@@ -34,7 +33,7 @@ for char in "Python":
 
 ---
 
-### 4. Using the range() Function
+## 4. Using the range() Function
 `range()` generates a sequence of numbers.
 
 ```python
@@ -60,7 +59,7 @@ for i in range(2, 10, 2):
 
 ---
 
-### 5. Looping with Index and Value
+## 5. Looping with Index and Value
 Use `enumerate()` when you need both index and value.
 
 ```python
@@ -72,7 +71,7 @@ for index, fruit in enumerate(fruits):
 
 ---
 
-### 6. Nested for Loops
+## 6. Nested for Loops
 ```python
 for i in range(2):
     for j in range(3):
@@ -81,7 +80,7 @@ for i in range(2):
 
 ---
 
-### 7. Using else with for
+## 7. Using else with for
 The `else` block runs if the loop finishes normally (not broken).
 
 ```python
@@ -93,7 +92,7 @@ else:
 
 ---
 
-### 8. Breaking Out of Loops
+## 8. Breaking Out of Loops
 ```python
 for i in range(10):
     if i == 5:
@@ -103,7 +102,7 @@ for i in range(10):
 
 ---
 
-### 9. Skipping Iterations with continue
+## 9. Skipping Iterations with continue
 ```python
 for i in range(5):
     if i == 2:
@@ -121,7 +120,7 @@ Output:
 
 ---
 
-### 10. Practical Examples
+## 10. Practical Examples
 - Summing numbers:
 ```python
 total = 0
@@ -139,13 +138,13 @@ for key, value in person.items():
 
 ---
 
-### 11. When to Use for Loops
+## 11. When to Use for Loops
 - Iterating over lists, strings, or dictionaries.  
 - When you know or can define the range of iterations.  
 - For cleaner, more readable code compared to while loops.  
 
 ---
 
-### 12. Next Steps
+## 12. Next Steps
 ✅ You now understand for loops and how to iterate over sequences.  
 In the next chapter, we’ll explore the **range() function** in more detail.

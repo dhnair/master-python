@@ -1,7 +1,7 @@
 # Capstone Project: File Manager CLI
 ## Chapter 66: Project Overview
 
-### 1. Introduction
+## 1. Introduction
 In this capstone project, we will build a **Command-Line Interface (CLI) File Manager**.  
 This project will tie together everything learned in **Volume 1: Foundations**:  
 - Variables and data types  
@@ -14,7 +14,7 @@ The goal is to simulate a **real-world project** while reinforcing Python fundam
 
 ---
 
-### 2. Why a File Manager?
+## 2. Why a File Manager?
 A file manager is a practical project because:
 - Every operating system uses files and directories.  
 - It provides hands-on experience with file handling.  
@@ -23,7 +23,7 @@ A file manager is a practical project because:
 
 ---
 
-### 3. Project Objectives
+## 3. Project Objectives
 By the end of this project, learners will be able to:
 1. Create a CLI tool using Python.  
 2. Navigate directories and manage files.  
@@ -33,7 +33,7 @@ By the end of this project, learners will be able to:
 
 ---
 
-### 4. Planned Features
+## 4. Planned Features
 The File Manager CLI will support the following commands:
 - **list** → show files and directories in the current folder  
 - **create** → create new files or directories  
@@ -46,7 +46,7 @@ The File Manager CLI will support the following commands:
 
 ---
 
-### 5. Tools and Libraries
+## 5. Tools and Libraries
 We will use only the **Python Standard Library**:
 - `os` and `os.path` → file and directory operations  
 - `shutil` → copy and move files  
@@ -55,7 +55,7 @@ We will use only the **Python Standard Library**:
 
 ---
 
-### 6. Workflow
+## 6. Workflow
 The project will progress through these stages:
 1. **Basic CLI skeleton** — learn how to handle commands.  
 2. **File operations** — implement read/write/delete.  
@@ -67,7 +67,7 @@ The project will progress through these stages:
 
 ---
 
-### 7. Expected Outcome
+## 7. Expected Outcome
 At the end of this capstone, you will have:
 - A **working CLI tool** you can run from the terminal.  
 - Experience designing, building, and testing a larger program.  
@@ -75,5 +75,5 @@ At the end of this capstone, you will have:
 
 ---
 
-### 8. Next Steps
+## 8. Next Steps
 ✅ Now that we understand the project scope and goals, let’s move on to **Chapter 2: Basic Structure**, where we will set up the CLI entry point.

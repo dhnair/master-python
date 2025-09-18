@@ -1,13 +1,13 @@
 # Capstone Project: File Manager CLI
 ## Chapter 72: Refactoring with OOP
 
-### 1. Introduction
+## 1. Introduction
 So far, our program has procedural functions.  
 We will now refactor it into a **FileManager class**.
 
 ---
 
-### 2. Creating FileManager Class
+## 2. Creating FileManager Class
 ```python
 import os, shutil
 
@@ -32,7 +32,7 @@ class FileManager:
 
 ---
 
-### 3. Adding More Methods
+## 3. Adding More Methods
 ```python
     def write(self, path, content):
         with open(path, "w") as f:
@@ -49,7 +49,7 @@ class FileManager:
 
 ---
 
-### 4. Using the Class in CLI
+## 4. Using the Class in CLI
 ```python
 fm = FileManager()
 
@@ -61,13 +61,13 @@ elif args.command == "read":
 
 ---
 
-### 5. Benefits of OOP Refactor
+## 5. Benefits of OOP Refactor
 - Cleaner code.  
 - Encapsulation of related functions.  
 - Easier to extend.  
 
 ---
 
-### 6. Next Steps
+## 6. Next Steps
 ✅ We now use OOP for file management.  
 Next: **Enhancements** to make it more user-friendly.

@@ -1,14 +1,13 @@
-# Volume 1: Foundations
-## Chapter 29: elif and else
+# Chapter 29: elif and else
 
-### 1. Introduction
+## 1. Introduction
 The `if` statement checks a single condition.  
 But in real programs, you often need to check **multiple possibilities**.  
 That’s where `elif` (else if) and `else` come in.  
 
 ---
 
-### 2. The `else` Clause
+## 2. The `else` Clause
 `else` runs when all previous conditions are false.
 
 ```python
@@ -27,7 +26,7 @@ You are a minor
 
 ---
 
-### 3. The `elif` Clause
+## 3. The `elif` Clause
 `elif` lets you check additional conditions.
 
 ```python
@@ -50,7 +49,7 @@ Grade: B
 
 ---
 
-### 4. Multiple `elif` Clauses
+## 4. Multiple `elif` Clauses
 You can chain as many `elif` clauses as needed, but only one `else`.
 
 ```python
@@ -68,7 +67,7 @@ else:
 
 ---
 
-### 5. Order of Conditions Matters
+## 5. Order of Conditions Matters
 Python checks conditions **top to bottom**.  
 As soon as one condition is true, the rest are ignored.
 
@@ -88,7 +87,7 @@ Greater than 10
 
 ---
 
-### 6. Nested Conditionals vs `elif`
+## 6. Nested Conditionals vs `elif`
 Instead of multiple nested `if` statements, `elif` makes code cleaner.
 
 ❌ Nested:
@@ -114,7 +113,7 @@ else:
 
 ---
 
-### 7. Using Boolean Operators with `if`
+## 7. Using Boolean Operators with `if`
 You can combine conditions using `and`, `or`, and `not`.
 
 ```python
@@ -127,7 +126,7 @@ if age >= 18 and has_id:
 
 ---
 
-### 8. Short-Circuiting
+## 8. Short-Circuiting
 Python stops evaluating conditions as soon as the result is known.
 
 ```python
@@ -142,7 +141,7 @@ Here, since `x != 0` is False, Python never checks the second condition.
 
 ---
 
-### 9. Membership Tests in Conditions
+## 9. Membership Tests in Conditions
 You can use `in` and `not in` directly.
 
 ```python
@@ -156,7 +155,7 @@ elif "orange" not in fruits:
 
 ---
 
-### 10. Conditional Expressions (Ternary Operator)
+## 10. Conditional Expressions (Ternary Operator)
 Python has a compact way to write `if-else` inside an expression:
 
 ```python
@@ -167,7 +166,7 @@ print(status)  # adult
 
 ---
 
-### 11. Common Beginner Mistakes
+## 11. Common Beginner Mistakes
 - Forgetting the colon (`:`):  
   ```python
   if x > 5   # ❌ SyntaxError
@@ -186,7 +185,7 @@ print(status)  # adult
 
 ---
 
-### 12. Best Practices
+## 12. Best Practices
 - Keep conditions simple and readable.  
 - Avoid deep nesting; prefer `elif`.  
 - Use parentheses in complex conditions for clarity.  
@@ -194,7 +193,7 @@ print(status)  # adult
 
 ---
 
-### 13. Practical Example
+## 13. Practical Example
 ```python
 marks = 72
 
@@ -212,6 +211,6 @@ print("Your grade is", grade)
 
 ---
 
-### 14. Next Steps
+## 14. Next Steps
 ✅ You now understand how to use `elif` and `else`, along with advanced condition-handling techniques.  
 In the next chapter, we’ll look at **nested conditionals** in more detail.

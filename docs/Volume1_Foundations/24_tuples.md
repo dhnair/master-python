@@ -1,7 +1,6 @@
-# Volume 1: Foundations
-## Chapter 24: Tuples
+# Chapter 24: Tuples
 
-### 1. Introduction
+## 1. Introduction
 A **tuple** is an ordered collection of items, similar to a list.  
 The key difference is that **tuples are immutable** — once created, their elements cannot be changed.  
 
@@ -9,7 +8,7 @@ Tuples are often used when you want to group data that should not change.
 
 ---
 
-### 2. Creating Tuples
+## 2. Creating Tuples
 Tuples use parentheses `()`:
 
 ```python
@@ -27,7 +26,7 @@ print(type(single))  # <class 'tuple'>
 
 ---
 
-### 3. Accessing Elements
+## 3. Accessing Elements
 Like lists, tuples use indexes:
 
 ```python
@@ -38,7 +37,7 @@ print(colors[-1])  # blue
 
 ---
 
-### 4. Immutability of Tuples
+## 4. Immutability of Tuples
 Tuples cannot be changed after creation:
 
 ```python
@@ -54,7 +53,7 @@ colors = ("yellow", "green", "blue")
 
 ---
 
-### 5. Tuple Operations
+## 5. Tuple Operations
 - Concatenation:
 
 ```python
@@ -77,7 +76,7 @@ print(2 in (1, 2, 3))  # True
 
 ---
 
-### 6. Tuple Slicing
+## 6. Tuple Slicing
 ```python
 numbers = (10, 20, 30, 40, 50)
 print(numbers[1:3])   # (20, 30)
@@ -87,7 +86,7 @@ print(numbers[::-1])  # (50, 40, 30, 20, 10)
 
 ---
 
-### 7. Tuple Methods
+## 7. Tuple Methods
 Tuples have only two methods (since they are immutable):
 
 ```python
@@ -98,7 +97,7 @@ print(nums.index(3))  # 3
 
 ---
 
-### 8. Nested Tuples
+## 8. Nested Tuples
 Tuples can contain other tuples:
 
 ```python
@@ -108,7 +107,7 @@ print(nested[1][0])  # 3
 
 ---
 
-### 9. Packing and Unpacking
+## 9. Packing and Unpacking
 You can pack values into a tuple and unpack them into variables:
 
 ```python
@@ -122,13 +121,13 @@ print(job)   # Engineer
 
 ---
 
-### 10. When to Use Tuples
+## 10. When to Use Tuples
 - When you need **immutable data**.  
 - When you want to use a collection as a dictionary key (lists cannot be keys, but tuples can).  
 - For grouping related items together, like `(latitude, longitude)`.  
 
 ---
 
-### 11. Next Steps
+## 11. Next Steps
 ✅ You now understand tuples: how to create them, access them, and why immutability is important.  
 In the next chapter, we’ll explore **sets**, which are collections of unique items.

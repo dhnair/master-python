@@ -1,7 +1,6 @@
-# Volume 1: Foundations
-## Chapter 16: Introduction to Virtual Environments
+# Chapter 16: Introduction to Virtual Environments
 
-### 1. Introduction
+## 1. Introduction
 A **virtual environment** is an isolated Python workspace.  
 It lets you install packages for one project without affecting other projects or the system Python installation.  
 
@@ -11,7 +10,7 @@ This is especially useful when:
 
 ---
 
-### 2. Checking if venv is Installed
+## 2. Checking if venv is Installed
 Python 3.3+ includes the `venv` module by default.  
 Check by running:
 
@@ -23,7 +22,7 @@ If you see usage instructions, it’s available.
 
 ---
 
-### 3. Creating a Virtual Environment
+## 3. Creating a Virtual Environment
 Navigate to your project folder and run:
 
 ```bash
@@ -34,7 +33,7 @@ This creates a folder called `myenv` that contains a local Python installation.
 
 ---
 
-### 4. Activating the Virtual Environment
+## 4. Activating the Virtual Environment
 - On **Windows** (Command Prompt):
 
 ```bash
@@ -57,7 +56,7 @@ When active, your shell prompt will show `(myenv)`.
 
 ---
 
-### 5. Installing Packages Inside the Virtual Environment
+## 5. Installing Packages Inside the Virtual Environment
 Once activated, any pip commands only affect the environment:
 
 ```bash
@@ -72,7 +71,7 @@ pip list
 
 ---
 
-### 6. Deactivating the Environment
+## 6. Deactivating the Environment
 To leave the virtual environment, simply run:
 
 ```bash
@@ -81,7 +80,7 @@ deactivate
 
 ---
 
-### 7. Removing a Virtual Environment
+## 7. Removing a Virtual Environment
 Since it’s just a folder, you can delete it safely:
 
 ```bash
@@ -91,20 +90,20 @@ rmdir /S myenv # Windows
 
 ---
 
-### 8. Why Use Virtual Environments?
+## 8. Why Use Virtual Environments?
 - Prevents dependency conflicts between projects.  
 - Keeps your global Python installation clean.  
 - Required in most professional Python projects.  
 
 ---
 
-### 9. Alternatives
+## 9. Alternatives
 - **virtualenv**: An older tool with extra features.  
 - **conda environments**: Used with Anaconda for data science projects.  
 - **pipenv** or **poetry**: Modern tools that combine dependency and environment management.  
 
 ---
 
-### 10. Next Steps
+## 10. Next Steps
 ✅ You now know how to create and use virtual environments.  
 In the next chapter, we’ll start exploring **Python’s core language basics**, beginning with variables and assignment rules.

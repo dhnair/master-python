@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 43: Creating Your Own Modules
+# Chapter 43: Creating Your Own Modules
 
-### 1. Introduction
+## 1. Introduction
 A **module** is just a Python file with functions, variables, or classes.  
 Creating your own modules helps organize code.
 
 ---
 
-### 2. Creating a Module
+## 2. Creating a Module
 1. Create a file `mymath.py`:
 ```python
 def add(a, b):
@@ -24,7 +23,7 @@ print(mymath.add(2,3))
 
 ---
 
-### 3. Module Search Path
+## 3. Module Search Path
 Python looks for modules in:
 - Current directory  
 - PYTHONPATH environment variable  
@@ -37,7 +36,7 @@ print(sys.path)
 
 ---
 
-### 4. Organizing with Packages
+## 4. Organizing with Packages
 A **package** is a directory with an `__init__.py` file.  
 Example structure:
 ```
@@ -54,13 +53,13 @@ from mypackage import module1
 
 ---
 
-### 5. Best Practices
+## 5. Best Practices
 - Use lowercase filenames.  
 - Group related functions in one module.  
 - Keep modules small and focused.  
 
 ---
 
-### 6. Next Steps
+## 6. Next Steps
 ✅ You now know how to create your own modules.  
 In the next chapter, we’ll revisit **virtual environments**.

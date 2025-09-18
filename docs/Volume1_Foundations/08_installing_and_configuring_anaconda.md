@@ -1,14 +1,13 @@
-# Volume 1: Foundations
-## Chapter 8: Installing and Configuring Anaconda
+# Chapter 8: Installing and Configuring Anaconda
 
-### 1. Introduction
+## 1. Introduction
 Anaconda is a Python distribution widely used for data science, machine learning, and scientific computing.  
 It comes bundled with Python, Jupyter Notebook, and many popular libraries (NumPy, Pandas, Matplotlib).  
 Using Anaconda makes it easier to manage packages and environments.  
 
 ---
 
-### 2. Downloading Anaconda
+## 2. Downloading Anaconda
 1. Open your web browser.  
 2. Go to the official download page:  
    [https://www.anaconda.com/download](https://www.anaconda.com/download)  
@@ -17,7 +16,7 @@ Using Anaconda makes it easier to manage packages and environments.
 
 ---
 
-### 3. Installing on Windows
+## 3. Installing on Windows
 1. Run the downloaded `.exe` installer.  
 2. Follow the setup wizard:  
    - Accept the license.  
@@ -29,7 +28,7 @@ Using Anaconda makes it easier to manage packages and environments.
 
 ---
 
-### 4. Installing on macOS
+## 4. Installing on macOS
 1. Open the `.pkg` installer you downloaded.  
 2. Follow the installation prompts.  
 3. Alternatively, use **Homebrew**:  
@@ -50,7 +49,7 @@ conda init zsh
 
 ---
 
-### 5. Installing on Linux
+## 5. Installing on Linux
 1. Download the `.sh` installer from the Anaconda website.  
 2. Open Terminal and navigate to the Downloads folder.  
 3. Run the installer:  
@@ -74,7 +73,7 @@ conda init
 
 ---
 
-### 6. Verifying Installation
+## 6. Verifying Installation
 Check conda version:  
 
 ```bash
@@ -89,7 +88,7 @@ python --version
 
 ---
 
-### 7. Updating Anaconda
+## 7. Updating Anaconda
 Keep Anaconda up to date:  
 
 ```bash
@@ -99,7 +98,7 @@ conda update anaconda
 
 ---
 
-### 8. Creating and Managing Environments
+## 8. Creating and Managing Environments
 Create a new environment with Python 3.12:  
 
 ```bash
@@ -126,7 +125,7 @@ conda remove -n myenv --all
 
 ---
 
-### 9. Using Anaconda Navigator
+## 9. Using Anaconda Navigator
 - **Navigator** is a graphical tool included with Anaconda.  
 - It lets you:  
   - Launch Jupyter Notebook.  
@@ -141,7 +140,7 @@ anaconda-navigator
 
 ---
 
-### 10. Troubleshooting
+## 10. Troubleshooting
 - **conda command not found**: Restart your terminal, or add Anaconda to PATH manually.  
 - **Slow package installs**: Use conda-forge channel:  
 
@@ -153,6 +152,6 @@ conda install -c conda-forge <package-name>
 
 ---
 
-### 11. Next Steps
+## 11. Next Steps
 ✅ Anaconda is now installed and configured.  
 In the next chapter, we will explore **other IDEs and editors** you can use for Python development.

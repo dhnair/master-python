@@ -1,7 +1,6 @@
-# Volume 1: Foundations
-## Chapter 19: Type Conversion and Casting
+# Chapter 19: Type Conversion and Casting
 
-### 1. Introduction
+## 1. Introduction
 Sometimes you need to change a value from one type to another.  
 For example, converting a string `"123"` into a number `123`.  
 This process is called **type conversion** or **casting**.  
@@ -12,7 +11,7 @@ Python supports two types of conversions:
 
 ---
 
-### 2. Implicit Type Conversion
+## 2. Implicit Type Conversion
 Python automatically converts smaller data types to larger ones when needed.  
 
 Example:
@@ -29,7 +28,7 @@ Here, Python automatically converted `x` into a float.
 
 ---
 
-### 3. Explicit Type Conversion
+## 3. Explicit Type Conversion
 You can manually convert a value to another type using built-in functions.  
 
 - Convert to integer:  
@@ -57,7 +56,7 @@ print(type(z))  # <class 'str'>
 
 ---
 
-### 4. Converting Between Data Types
+## 4. Converting Between Data Types
 - List to Tuple:
 
 ```python
@@ -92,7 +91,7 @@ print(keys)  # ['name', 'age']
 
 ---
 
-### 5. Converting Booleans
+## 5. Converting Booleans
 Booleans (`True` or `False`) can also be converted.  
 
 ```python
@@ -106,7 +105,7 @@ print(bool("hi"))  # True
 
 ---
 
-### 6. Common Pitfalls
+## 6. Common Pitfalls
 - Converting non-numeric strings to numbers will fail:  
 
 ```python
@@ -121,13 +120,13 @@ print(int(3.99))  # 3
 
 ---
 
-### 7. When to Use Conversion
+## 7. When to Use Conversion
 - When reading user input (always a string by default).  
 - When working with files or APIs that return text.  
 - When preparing data for mathematical operations.  
 
 ---
 
-### 8. Next Steps
+## 8. Next Steps
 ✅ You now understand how to convert between Python data types.  
 In the next chapter, we’ll dive into **operators** and how they work with different types.

@@ -1,7 +1,6 @@
-# Volume 1: Foundations
-## Chapter 6: Installing and Configuring PyCharm
+# Chapter 6: Installing and Configuring PyCharm
 
-### 1. Introduction
+## 1. Introduction
 PyCharm is a popular Integrated Development Environment (IDE) created by JetBrains.  
 It comes in two editions:  
 - **Community Edition (free, open-source)** → ideal for beginners.  
@@ -11,7 +10,7 @@ For most learners, the Community Edition is sufficient.
 
 ---
 
-### 2. Downloading PyCharm
+## 2. Downloading PyCharm
 1. Open your web browser.  
 2. Go to the official PyCharm download page:  
    [https://www.jetbrains.com/pycharm/download/](https://www.jetbrains.com/pycharm/download/)  
@@ -20,7 +19,7 @@ For most learners, the Community Edition is sufficient.
 
 ---
 
-### 3. Installing on Windows
+## 3. Installing on Windows
 1. Run the `.exe` installer.  
 2. Follow the setup wizard:  
    - Choose installation location.  
@@ -32,7 +31,7 @@ For most learners, the Community Edition is sufficient.
 
 ---
 
-### 4. Installing on macOS
+## 4. Installing on macOS
 1. Open the `.dmg` file you downloaded.  
 2. Drag **PyCharm CE.app** into the **Applications** folder.  
 3. Open it via Spotlight or Launchpad.  
@@ -43,7 +42,7 @@ For most learners, the Community Edition is sufficient.
 
 ---
 
-### 5. Installing on Linux
+## 5. Installing on Linux
 For Ubuntu/Debian:  
 
 ```bash
@@ -66,7 +65,7 @@ yay -S pycharm-community-edition
 
 ---
 
-### 6. Initial Setup
+## 6. Initial Setup
 1. Start PyCharm for the first time.  
 2. Choose a theme (Light or Dark).  
 3. (Optional) Import settings if you used PyCharm before.  
@@ -74,7 +73,7 @@ yay -S pycharm-community-edition
 
 ---
 
-### 7. Configuring Python Interpreter
+## 7. Configuring Python Interpreter
 1. Create a new project or open an existing folder.  
 2. PyCharm will prompt you to set a Python interpreter.  
 3. Choose one of the following:  
@@ -84,7 +83,7 @@ yay -S pycharm-community-edition
 
 ---
 
-### 8. Creating Your First Project
+## 8. Creating Your First Project
 1. From the welcome screen, click **New Project**.  
 2. Enter a project name (e.g., `HelloPython`).  
 3. Choose the interpreter.  
@@ -107,20 +106,20 @@ Hello from PyCharm!
 
 ---
 
-### 9. Customizing PyCharm
+## 9. Customizing PyCharm
 - **Themes and Fonts**: Settings → Appearance & Behavior → Appearance.  
 - **Keymaps**: Choose from IntelliJ, VS Code, or custom keybindings.  
 - **Plugins**: Explore useful plugins (e.g., Markdown support, Git tools, database tools).  
 
 ---
 
-### 10. Troubleshooting
+## 10. Troubleshooting
 - **Interpreter not found**: Double-check Python is installed and added to PATH.  
 - **PyCharm feels slow**: Increase memory in `Help → Change Memory Settings`.  
 - **Projects not opening**: Try deleting `.idea` folder in project directory and reopen.  
 
 ---
 
-### 11. Next Steps
+## 11. Next Steps
 ✅ You now have PyCharm installed and configured.  
 In the next chapter, we will set up **Jupyter Notebook**, an interactive environment widely used in data science.

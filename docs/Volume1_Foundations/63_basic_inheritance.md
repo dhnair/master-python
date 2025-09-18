@@ -1,12 +1,11 @@
-# Volume 1: Foundations
-## Chapter 63: Basic Inheritance
+# Chapter 63: Basic Inheritance
 
-### 1. Introduction
+## 1. Introduction
 Inheritance allows a class (child) to reuse code from another class (parent).
 
 ---
 
-### 2. Simple Inheritance
+## 2. Simple Inheritance
 ```python
 class Animal:
     def speak(self):
@@ -22,7 +21,7 @@ d.speak()
 
 ---
 
-### 3. Accessing Parent Methods
+## 3. Accessing Parent Methods
 Use `super()`.
 
 ```python
@@ -41,7 +40,7 @@ print(dog.name, dog.breed)
 
 ---
 
-### 4. Method Resolution Order (MRO)
+## 4. Method Resolution Order (MRO)
 Python supports multiple inheritance; MRO decides which method to call.
 
 ```python
@@ -50,12 +49,12 @@ print(Dog.__mro__)
 
 ---
 
-### 5. Best Practices
+## 5. Best Practices
 - Inherit when classes are logically related.  
 - Prefer composition (has-a) if inheritance doesn’t fit well.  
 
 ---
 
-### 6. Next Steps
+## 6. Next Steps
 ✅ You now understand inheritance.  
 Next: **Encapsulation basics**.

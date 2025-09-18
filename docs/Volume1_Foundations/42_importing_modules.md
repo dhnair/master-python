@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 42: Importing Modules
+# Chapter 42: Importing Modules
 
-### 1. Introduction
+## 1. Introduction
 Modules are Python files containing reusable code (functions, classes, variables).  
 You can import them into your program using the `import` statement.
 
 ---
 
-### 2. Importing a Whole Module
+## 2. Importing a Whole Module
 ```python
 import math
 print(math.sqrt(16))  # 4.0
@@ -15,7 +14,7 @@ print(math.sqrt(16))  # 4.0
 
 ---
 
-### 3. Importing Specific Items
+## 3. Importing Specific Items
 ```python
 from math import pi, sqrt
 print(pi)      # 3.14159...
@@ -24,7 +23,7 @@ print(sqrt(25)) # 5.0
 
 ---
 
-### 4. Using Aliases
+## 4. Using Aliases
 ```python
 import numpy as np
 print(np.array([1,2,3]))
@@ -32,7 +31,7 @@ print(np.array([1,2,3]))
 
 ---
 
-### 5. Importing All Items (Not Recommended)
+## 5. Importing All Items (Not Recommended)
 ```python
 from math import *
 print(sin(0))
@@ -41,7 +40,7 @@ print(sin(0))
 
 ---
 
-### 6. Importing Custom Modules
+## 6. Importing Custom Modules
 If you have a file `mymath.py`:
 
 ```python
@@ -58,7 +57,7 @@ print(mymath.square(5))
 
 ---
 
-### 7. Reloading Modules
+## 7. Reloading Modules
 Sometimes you need to reload a module (during development).
 
 ```python
@@ -68,6 +67,6 @@ importlib.reload(mymath)
 
 ---
 
-### 8. Next Steps
+## 8. Next Steps
 ✅ You now know how to import modules.  
 In the next chapter, we’ll learn about **creating your own modules**.

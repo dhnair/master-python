@@ -1,12 +1,11 @@
-# Volume 1: Foundations
-## Chapter 65: Mini Project — Student and Course Manager
+# Chapter 65: Mini Project — Student and Course Manager
 
-### 1. Introduction
+## 1. Introduction
 Let’s apply OOP concepts (classes, attributes, methods, inheritance, encapsulation) to build a small project.
 
 ---
 
-### 2. Requirements
+## 2. Requirements
 - Manage students and courses.  
 - Add/remove students.  
 - Enroll students in courses.  
@@ -14,7 +13,7 @@ Let’s apply OOP concepts (classes, attributes, methods, inheritance, encapsula
 
 ---
 
-### 3. Student Class
+## 3. Student Class
 ```python
 class Student:
     def __init__(self, name):
@@ -26,7 +25,7 @@ class Student:
 
 ---
 
-### 4. Course Class
+## 4. Course Class
 ```python
 class Course:
     def __init__(self, title):
@@ -38,7 +37,7 @@ class Course:
 
 ---
 
-### 5. Manager Class
+## 5. Manager Class
 ```python
 class Manager:
     def __init__(self):
@@ -52,7 +51,7 @@ class Manager:
 
 ---
 
-### 6. Putting It Together
+## 6. Putting It Together
 ```python
 s1 = Student("Alice")
 s2 = Student("Bob")
@@ -74,6 +73,6 @@ print(s2.name, "enrolled in", [c.title for c in s2.courses])
 
 ---
 
-### 7. Next Steps
+## 7. Next Steps
 ✅ You built a small OOP project.  
 Next: **Capstone Project — File Manager CLI**.

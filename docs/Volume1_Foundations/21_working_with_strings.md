@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 21: Working with Strings
+# Chapter 21: Working with Strings
 
-### 1. Introduction
+## 1. Introduction
 Strings are one of the most commonly used data types in Python.  
 They represent sequences of characters and are used for storing text.  
 
 ---
 
-### 2. Creating Strings
+## 2. Creating Strings
 Strings can be created with single quotes, double quotes, or triple quotes:
 
 ```python
@@ -19,7 +18,7 @@ a multi-line string."""
 
 ---
 
-### 3. Accessing Characters
+## 3. Accessing Characters
 Strings are sequences, so you can access characters using indexes:
 
 ```python
@@ -30,7 +29,7 @@ print(word[-1])  # n (last character)
 
 ---
 
-### 4. String Slicing
+## 4. String Slicing
 You can extract substrings using slices:
 
 ```python
@@ -43,7 +42,7 @@ print(word[-3:])   # hon
 
 ---
 
-### 5. Common String Operations
+## 5. Common String Operations
 - Concatenation:
 
 ```python
@@ -64,7 +63,7 @@ print(len("Python"))  # 6
 
 ---
 
-### 6. Useful String Methods
+## 6. Useful String Methods
 ```python
 text = "  python programming  "
 
@@ -78,7 +77,7 @@ print("-".join(["a", "b", "c"]))       # "a-b-c"
 
 ---
 
-### 7. String Searching
+## 7. String Searching
 ```python
 sentence = "Learning Python is fun"
 print("Python" in sentence)     # True
@@ -87,7 +86,7 @@ print(sentence.find("Python"))  # 9 (index where found)
 
 ---
 
-### 8. Escape Sequences
+## 8. Escape Sequences
 Special characters can be written with a backslash:
 
 ```python
@@ -98,7 +97,7 @@ print("She said \"Hi\"") # quotes inside string
 
 ---
 
-### 9. f-Strings (String Interpolation)
+## 9. f-Strings (String Interpolation)
 Introduced in Python 3.6+, f-strings allow inserting variables directly:
 
 ```python
@@ -109,7 +108,7 @@ print(f"My name is {name} and I am {age} years old.")
 
 ---
 
-### 10. Raw Strings
+## 10. Raw Strings
 Useful for paths and regular expressions:
 
 ```python
@@ -119,6 +118,6 @@ print(path)  # C:\Users\Name\Documents
 
 ---
 
-### 11. Next Steps
+## 11. Next Steps
 ✅ You now know how to work with strings: indexing, slicing, methods, and formatting.  
 In the next chapter, we’ll cover **escape characters and raw strings** in more detail.

@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 18: Basic Data Types
+# Chapter 18: Basic Data Types
 
-### 1. Introduction
+## 1. Introduction
 Python has several built-in data types that form the foundation of the language.  
 Understanding these is essential because you will use them in almost every program.  
 
 ---
 
-### 2. Numbers
+## 2. Numbers
 Python has different types of numbers:
 - **Integers (`int`)** → whole numbers  
 - **Floating-point numbers (`float`)** → decimal numbers  
@@ -31,7 +30,7 @@ print(type(c))  # <class 'complex'>
 
 ---
 
-### 3. Strings
+## 3. Strings
 A **string** is text enclosed in quotes.
 
 ```python
@@ -49,7 +48,7 @@ print(first + second)  # Python
 
 ---
 
-### 4. Booleans
+## 4. Booleans
 A **boolean** is either `True` or `False`.
 
 ```python
@@ -66,7 +65,7 @@ print(2 == 4)  # False
 
 ---
 
-### 5. None
+## 5. None
 `None` is a special type representing the absence of a value.
 
 ```python
@@ -76,7 +75,7 @@ print(result)  # None
 
 ---
 
-### 6. Lists
+## 6. Lists
 A **list** is an ordered, changeable collection.
 
 ```python
@@ -93,7 +92,7 @@ print(fruits)  # ['apple', 'banana', 'cherry', 'orange']
 
 ---
 
-### 7. Tuples
+## 7. Tuples
 A **tuple** is an ordered, unchangeable collection.
 
 ```python
@@ -103,7 +102,7 @@ print(point[0])  # 3
 
 ---
 
-### 8. Sets
+## 8. Sets
 A **set** is an unordered collection of unique items.
 
 ```python
@@ -113,7 +112,7 @@ print(numbers)  # {1, 2, 3}
 
 ---
 
-### 9. Dictionaries
+## 9. Dictionaries
 A **dictionary** stores data as key-value pairs.
 
 ```python
@@ -123,7 +122,7 @@ print(person["name"])  # Alice
 
 ---
 
-### 10. Dynamic Typing in Python
+## 10. Dynamic Typing in Python
 You can reassign a variable to a different type:
 
 ```python
@@ -135,7 +134,7 @@ print(type(x))  # str
 
 ---
 
-### 11. Checking Data Types
+## 11. Checking Data Types
 Use `type()` and `isinstance()`:
 
 ```python
@@ -146,6 +145,6 @@ print(isinstance(x, float))  # True
 
 ---
 
-### 12. Next Steps
+## 12. Next Steps
 ✅ You now know Python’s basic data types: numbers, strings, booleans, None, lists, tuples, sets, and dictionaries.  
 In the next chapter, we’ll learn about **type conversion and casting**.

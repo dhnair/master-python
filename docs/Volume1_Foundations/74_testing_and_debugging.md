@@ -1,13 +1,13 @@
 # Capstone Project: File Manager CLI
 ## Chapter 74: Testing and Debugging
 
-### 1. Introduction
+## 1. Introduction
 Testing ensures our program works as expected.  
 Debugging helps us find and fix issues.
 
 ---
 
-### 2. Manual Testing
+## 2. Manual Testing
 Run commands from CLI:
 ```bash
 python file_manager.py list .
@@ -17,7 +17,7 @@ python file_manager.py delete test.txt
 
 ---
 
-### 3. Unit Testing with unittest
+## 3. Unit Testing with unittest
 ```python
 import unittest
 import os
@@ -36,7 +36,7 @@ if __name__ == "__main__":
 
 ---
 
-### 4. Debugging with print and logging
+## 4. Debugging with print and logging
 ```python
 print("Debug: entering function")
 ```
@@ -49,6 +49,6 @@ logging.debug("Entering write_file")
 
 ---
 
-### 5. Next Steps
+## 5. Next Steps
 ✅ We can now test and debug our project.  
 Next: **Final wrap-up**.

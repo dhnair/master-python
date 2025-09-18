@@ -1,12 +1,11 @@
-# Volume 1: Foundations
-## Chapter 50: Handling Exceptions
+# Chapter 50: Handling Exceptions
 
-### 1. Introduction
+## 1. Introduction
 Exceptions are errors that occur during execution. Python provides `try`/`except` blocks to handle them gracefully.
 
 ---
 
-### 2. Basic try-except
+## 2. Basic try-except
 ```python
 try:
     x = 10 / 0
@@ -16,7 +15,7 @@ except ZeroDivisionError:
 
 ---
 
-### 3. Multiple Except Clauses
+## 3. Multiple Except Clauses
 ```python
 try:
     num = int("abc")
@@ -28,7 +27,7 @@ except ZeroDivisionError:
 
 ---
 
-### 4. Catching Any Exception
+## 4. Catching Any Exception
 ```python
 try:
     risky_code()
@@ -38,7 +37,7 @@ except Exception as e:
 
 ---
 
-### 5. Using else with try
+## 5. Using else with try
 ```python
 try:
     x = 10 / 2
@@ -50,7 +49,7 @@ else:
 
 ---
 
-### 6. Finally Block
+## 6. Finally Block
 ```python
 try:
     file = open("example.txt")
@@ -60,13 +59,13 @@ finally:
 
 ---
 
-### 7. Best Practices
+## 7. Best Practices
 - Catch specific exceptions first.  
 - Avoid bare `except:` unless necessary.  
 - Clean up resources with `finally` or context managers.
 
 ---
 
-### 8. Next Steps
+## 8. Next Steps
 ✅ You now understand exception handling.  
 Next: **Using finally and else** in more detail.

@@ -1,14 +1,13 @@
-# Volume 1: Foundations
-## Chapter 9: Other IDEs and Editors
+# Chapter 9: Other IDEs and Editors
 
-### 1. Introduction
+## 1. Introduction
 Python can be written in many different editors and IDEs (Integrated Development Environments).  
 We’ve already covered **IDLE**, **VS Code**, **PyCharm**, and **Jupyter Notebook**.  
 In this chapter, we’ll look at some other popular options you may encounter.  
 
 ---
 
-### 2. Thonny
+## 2. Thonny
 - A beginner-friendly Python IDE.  
 - Comes preinstalled with Python on Raspberry Pi.  
 - Features:  
@@ -24,7 +23,7 @@ brew install thonny        # macOS (via Homebrew)
 
 ---
 
-### 3. Spyder
+## 3. Spyder
 - A scientific Python IDE included in Anaconda.  
 - Features:  
   - Variable explorer (see your data in tables).  
@@ -38,7 +37,7 @@ spyder
 
 ---
 
-### 4. Sublime Text
+## 4. Sublime Text
 - A fast, lightweight text editor.  
 - Features:  
   - Powerful search and multi-cursor editing.  
@@ -48,7 +47,7 @@ spyder
 
 ---
 
-### 5. Atom (Deprecated but still used)
+## 5. Atom (Deprecated but still used)
 - A hackable text editor built by GitHub.  
 - Although officially discontinued in 2022, some developers still use forks.  
 - Features:  
@@ -57,7 +56,7 @@ spyder
 
 ---
 
-### 6. Eclipse + PyDev
+## 6. Eclipse + PyDev
 - Eclipse is a Java IDE, but with the **PyDev plugin**, it can be used for Python.  
 - Features:  
   - Code completion.  
@@ -69,7 +68,7 @@ spyder
 
 ---
 
-### 7. Vim and NeoVim
+## 7. Vim and NeoVim
 - Terminal-based editors, powerful once mastered.  
 - Popular among advanced developers.  
 - Features:  
@@ -89,7 +88,7 @@ sudo apt install neovim
 
 ---
 
-### 8. Emacs
+## 8. Emacs
 - Another advanced, highly customizable editor.  
 - Python support with plugins like **elpy**.  
 - Installation:  
@@ -100,7 +99,7 @@ sudo apt install emacs
 
 ---
 
-### 9. Which Editor Should You Use?
+## 9. Which Editor Should You Use?
 - **Beginners** → Thonny, IDLE, or VS Code.  
 - **Data Science** → Jupyter, Spyder.  
 - **Professional Development** → PyCharm, VS Code.  
@@ -108,6 +107,6 @@ sudo apt install emacs
 
 ---
 
-### 10. Next Steps
+## 10. Next Steps
 ✅ Now you know the wide variety of Python IDEs and editors available.  
 In the next chapter, we’ll dive into using the **Python REPL (Read-Eval-Print Loop)**.

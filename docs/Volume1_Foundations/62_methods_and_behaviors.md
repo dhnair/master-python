@@ -1,12 +1,11 @@
-# Volume 1: Foundations
-## Chapter 62: Methods and Behaviors
+# Chapter 62: Methods and Behaviors
 
-### 1. Introduction
+## 1. Introduction
 Methods define behaviors of objects. They are functions defined inside a class.  
 
 ---
 
-### 2. Instance Methods
+## 2. Instance Methods
 The most common method type. Always include `self`.
 
 ```python
@@ -23,7 +22,7 @@ dog.bark()
 
 ---
 
-### 3. Class Methods
+## 3. Class Methods
 Operate on the class itself, not instances. Use `@classmethod`.
 
 ```python
@@ -40,7 +39,7 @@ print(Dog.get_count())
 
 ---
 
-### 4. Static Methods
+## 4. Static Methods
 Behave like regular functions but live in class namespace. Use `@staticmethod`.
 
 ```python
@@ -54,7 +53,7 @@ print(Math.add(2, 3))
 
 ---
 
-### 5. Special Methods
+## 5. Special Methods
 Python classes can override built-ins like `__str__`, `__len__`.
 
 ```python
@@ -70,6 +69,6 @@ print(p)
 
 ---
 
-### 6. Next Steps
+## 6. Next Steps
 ✅ You now know about instance, class, static, and special methods.  
 Next: **Basic inheritance**.

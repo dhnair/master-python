@@ -1,12 +1,12 @@
 # Capstone Project: File Manager CLI
 ## Chapter 75: Final Wrap-up
 
-### 1. Introduction
+## 1. Introduction
 Congratulations! You have completed the File Manager CLI project.  
 
 ---
 
-### 2. What We Built
+## 2. What We Built
 - File operations: read, write, delete, copy, move  
 - Directory operations: create, list, navigate  
 - Search and filters  
@@ -17,7 +17,7 @@ Congratulations! You have completed the File Manager CLI project.
 
 ---
 
-### 3. Example Usage
+## 3. Example Usage
 ```bash
 python file_manager.py list .
 python file_manager.py create notes.txt
@@ -29,7 +29,7 @@ python file_manager.py delete notes.txt
 
 ---
 
-### 4. Possible Improvements
+## 4. Possible Improvements
 - Add GUI (Tkinter, PyQt, etc.)  
 - Add networking (remote file management)  
 - Add cloud integration (Google Drive, Dropbox)  
@@ -37,7 +37,7 @@ python file_manager.py delete notes.txt
 
 ---
 
-### 5. Lessons Learned
+## 5. Lessons Learned
 - How to structure a CLI project.  
 - How to combine multiple Python concepts.  
 - How to refactor procedural code into OOP.  
@@ -45,6 +45,6 @@ python file_manager.py delete notes.txt
 
 ---
 
-### 6. Next Steps
+## 6. Next Steps
 ✅ You’ve finished the Capstone Project for Volume 1.  
 Move forward to **Volume 2: Python for Web Development** to continue your journey!

@@ -1,7 +1,6 @@
-# Volume 1: Foundations
-## Chapter 20: Operators
+# Chapter 20: Operators
 
-### 1. Introduction
+## 1. Introduction
 **Operators** are symbols that perform operations on variables and values.  
 Python supports several categories of operators:  
 - Arithmetic  
@@ -14,7 +13,7 @@ Python supports several categories of operators:
 
 ---
 
-### 2. Arithmetic Operators
+## 2. Arithmetic Operators
 Used for basic math operations.  
 
 ```python
@@ -32,7 +31,7 @@ print(x ** y) # 1000 (Exponentiation)
 
 ---
 
-### 3. Comparison Operators
+## 3. Comparison Operators
 Used to compare values (result is `True` or `False`).  
 
 ```python
@@ -49,7 +48,7 @@ print(y <= 10) # True  (Less or equal)
 
 ---
 
-### 4. Logical Operators
+## 4. Logical Operators
 Used to combine conditional statements.  
 
 ```python
@@ -63,7 +62,7 @@ print(not a)   # False (Negation)
 
 ---
 
-### 5. Assignment Operators
+## 5. Assignment Operators
 Used to assign values to variables.  
 
 ```python
@@ -80,7 +79,7 @@ x **= 3  # x = x ** 3 → 8.0
 
 ---
 
-### 6. Bitwise Operators
+## 6. Bitwise Operators
 Work on binary (bit-level) data.  
 
 ```python
@@ -97,7 +96,7 @@ print(x >> 1) # 3  (Right shift → 011)
 
 ---
 
-### 7. Membership Operators
+## 7. Membership Operators
 Used to test if a value exists in a sequence.  
 
 ```python
@@ -109,7 +108,7 @@ print("orange" not in fruits) # True
 
 ---
 
-### 8. Identity Operators
+## 8. Identity Operators
 Used to compare object references (memory addresses).  
 
 ```python
@@ -124,7 +123,7 @@ print(a is c)     # True  (same object reference)
 
 ---
 
-### 9. Operator Precedence
+## 9. Operator Precedence
 Some operators are evaluated before others (like in math).  
 
 Order of precedence (highest to lowest):  
@@ -144,6 +143,6 @@ print(result)  # 14, because multiplication happens before addition
 
 ---
 
-### 10. Next Steps
+## 10. Next Steps
 ✅ You now know how to use Python’s operators: arithmetic, comparison, logical, assignment, bitwise, membership, and identity.  
 In the next chapter, we’ll explore **working with strings** in detail.

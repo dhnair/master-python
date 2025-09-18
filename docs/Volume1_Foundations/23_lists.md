@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 23: Lists
+# Chapter 23: Lists
 
-### 1. Introduction
+## 1. Introduction
 A **list** is an ordered, changeable collection of items.  
 Lists are one of the most commonly used data structures in Python because they are flexible and easy to use.  
 
 ---
 
-### 2. Creating Lists
+## 2. Creating Lists
 Lists are defined using square brackets `[]`:
 
 ```python
@@ -18,7 +17,7 @@ mixed = [1, "hello", 3.14, True]
 
 ---
 
-### 3. Accessing List Elements
+## 3. Accessing List Elements
 Use **indexes** (starting at 0):
 
 ```python
@@ -29,7 +28,7 @@ print(fruits[-1])  # cherry (last element)
 
 ---
 
-### 4. Modifying Lists
+## 4. Modifying Lists
 Lists are mutable, meaning you can change them:
 
 ```python
@@ -39,7 +38,7 @@ print(fruits)  # ['apple', 'blueberry', 'cherry']
 
 ---
 
-### 5. Adding Items
+## 5. Adding Items
 - Append to the end:
 
 ```python
@@ -54,7 +53,7 @@ fruits.insert(1, "mango")
 
 ---
 
-### 6. Removing Items
+## 6. Removing Items
 ```python
 fruits.remove("apple")   # remove by value
 print(fruits)
@@ -71,7 +70,7 @@ print(fruits)  # []
 
 ---
 
-### 7. List Slicing
+## 7. List Slicing
 ```python
 numbers = [10, 20, 30, 40, 50]
 print(numbers[1:3])  # [20, 30]
@@ -82,7 +81,7 @@ print(numbers[::-1]) # reversed list
 
 ---
 
-### 8. Checking Membership
+## 8. Checking Membership
 ```python
 fruits = ["apple", "banana"]
 print("apple" in fruits)   # True
@@ -91,7 +90,7 @@ print("mango" not in fruits) # True
 
 ---
 
-### 9. Iterating Over a List
+## 9. Iterating Over a List
 ```python
 for fruit in ["apple", "banana", "cherry"]:
     print(fruit)
@@ -99,7 +98,7 @@ for fruit in ["apple", "banana", "cherry"]:
 
 ---
 
-### 10. Useful List Methods
+## 10. Useful List Methods
 ```python
 numbers = [3, 1, 4, 1, 5]
 
@@ -114,7 +113,7 @@ print(numbers)           # [5, 4, 3, 1, 1]
 
 ---
 
-### 11. Nested Lists
+## 11. Nested Lists
 Lists can contain other lists:
 
 ```python
@@ -128,7 +127,7 @@ print(matrix[1][2])  # 6
 
 ---
 
-### 12. Copying Lists
+## 12. Copying Lists
 Be careful when copying lists:
 
 ```python
@@ -146,13 +145,13 @@ print(c)  # [42, 2, 3]
 
 ---
 
-### 13. When to Use Lists
+## 13. When to Use Lists
 - When you need an **ordered collection**.  
 - When you need to frequently modify elements.  
 - For storing sequences of data like names, scores, or items.  
 
 ---
 
-### 14. Next Steps
+## 14. Next Steps
 ✅ You now understand how to create, access, modify, and use lists.  
 In the next chapter, we’ll explore **tuples**, which are similar to lists but immutable.

@@ -1,12 +1,11 @@
-# Volume 1: Foundations
-## Chapter 38: Function Arguments and Return Values
+# Chapter 38: Function Arguments and Return Values
 
-### 1. Introduction
+## 1. Introduction
 Functions take inputs (arguments) and may produce outputs (return values). Understanding how arguments are passed and how returns work is essential.
 
 ---
 
-### 2. Positional Arguments
+## 2. Positional Arguments
 ```python
 def multiply(a, b):
     return a * b
@@ -16,7 +15,7 @@ print(multiply(2, 3))  # 6
 
 ---
 
-### 3. Keyword Arguments (Named Arguments)
+## 3. Keyword Arguments (Named Arguments)
 ```python
 def greet(name, age):
     print(f"Hello {name}, you are {age} years old")
@@ -26,7 +25,7 @@ greet(age=30, name="Alice")
 
 ---
 
-### 4. Default Return Value (None)
+## 4. Default Return Value (None)
 If a function does not return explicitly, it returns `None`.
 
 ```python
@@ -39,7 +38,7 @@ print(result)  # None
 
 ---
 
-### 5. Returning Multiple Values
+## 5. Returning Multiple Values
 Functions can return tuples which can be unpacked.
 
 ```python
@@ -52,13 +51,13 @@ print(low, high, total)
 
 ---
 
-### 6. Arguments vs Parameters
+## 6. Arguments vs Parameters
 - **Parameters** are names in function definition.  
 - **Arguments** are actual values passed to the function.
 
 ---
 
-### 7. Type Hints (Optional)
+## 7. Type Hints (Optional)
 Python supports optional type hints for better readability and tooling:
 
 ```python
@@ -68,13 +67,13 @@ def add(a: int, b: int) -> int:
 
 ---
 
-### 8. Best Practices
+## 8. Best Practices
 - Validate arguments where appropriate.  
 - Return early if inputs are invalid.  
 - Keep return types consistent for easier use.
 
 ---
 
-### 9. Next Steps
+## 9. Next Steps
 ✅ You now understand arguments and return values.  
 Next: **Default and keyword arguments**.

@@ -1,14 +1,13 @@
-# Volume 1: Foundations
-## Chapter 12: Using Python with Different Text Editors
+# Chapter 12: Using Python with Different Text Editors
 
-### 1. Introduction
+## 1. Introduction
 Python code can be written in any plain text editor.  
 While IDEs like VS Code and PyCharm are powerful, sometimes a simple text editor is faster and more lightweight.  
 In this chapter, we’ll explore using Python with several popular text editors.  
 
 ---
 
-### 2. Notepad (Windows)
+## 2. Notepad (Windows)
 - The simplest editor available on Windows.  
 - Steps:  
   1. Open **Notepad**.  
@@ -28,7 +27,7 @@ In this chapter, we’ll explore using Python with several popular text editors.
 
 ---
 
-### 3. TextEdit (macOS)
+## 3. TextEdit (macOS)
 - The built-in text editor for macOS.  
 - Steps:  
   1. Open **TextEdit**.  
@@ -42,7 +41,7 @@ In this chapter, we’ll explore using Python with several popular text editors.
 
 ---
 
-### 4. Nano (Linux/macOS Terminal Editor)
+## 4. Nano (Linux/macOS Terminal Editor)
 - A simple terminal-based text editor.  
 - Steps:  
   1. Open Terminal.  
@@ -61,7 +60,7 @@ In this chapter, we’ll explore using Python with several popular text editors.
 
 ---
 
-### 5. Vim and Neovim
+## 5. Vim and Neovim
 - Powerful modal text editors for advanced users.  
 - Steps:  
   1. Install Vim:  
@@ -88,7 +87,7 @@ In this chapter, we’ll explore using Python with several popular text editors.
 
 ---
 
-### 6. Sublime Text
+## 6. Sublime Text
 - A fast, extensible editor with Python plugins.  
 - Installation: [https://www.sublimetext.com/](https://www.sublimetext.com/)  
 - Steps:  
@@ -99,19 +98,19 @@ In this chapter, we’ll explore using Python with several popular text editors.
 
 ---
 
-### 7. Atom (Discontinued, still usable via forks)
+## 7. Atom (Discontinued, still usable via forks)
 - Atom was discontinued, but forks like **Pulsar** exist.  
 - Features include extensions and integrated terminals.  
 
 ---
 
-### 8. Why Use Text Editors?
+## 8. Why Use Text Editors?
 - **Lightweight** compared to IDEs.  
 - **Universal** — works on any OS.  
 - **Customizable** — plugins, syntax highlighting, linting.  
 
 ---
 
-### 9. Next Steps
+## 9. Next Steps
 ✅ You now know how to write Python code in various text editors.  
 In the next chapter, we’ll look at the difference between **Python scripts and modules**.

@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 64: Encapsulation Basics
+# Chapter 64: Encapsulation Basics
 
-### 1. Introduction
+## 1. Introduction
 Encapsulation is about restricting access to certain data or methods in a class.  
 Python uses naming conventions instead of strict enforcement.
 
 ---
 
-### 2. Public Attributes
+## 2. Public Attributes
 Accessible everywhere.
 
 ```python
@@ -21,7 +20,7 @@ print(p.name)
 
 ---
 
-### 3. Protected Attributes
+## 3. Protected Attributes
 Prefix with `_` (convention: treat as internal use).
 
 ```python
@@ -35,7 +34,7 @@ print(p._name)  # accessible but discouraged
 
 ---
 
-### 4. Private Attributes
+## 4. Private Attributes
 Prefix with `__` triggers name mangling.
 
 ```python
@@ -50,7 +49,7 @@ print(p._Person__name)  # still accessible
 
 ---
 
-### 5. Getters and Setters
+## 5. Getters and Setters
 Control access with methods.
 
 ```python
@@ -65,7 +64,7 @@ class Person:
 
 ---
 
-### 6. Using @property
+## 6. Using @property
 ```python
 class Person:
     def __init__(self, age):
@@ -87,6 +86,6 @@ print(p.age)
 
 ---
 
-### 7. Next Steps
+## 7. Next Steps
 ✅ You now understand encapsulation basics.  
 Next: **Mini project — Student and Course Manager**.

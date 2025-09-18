@@ -1,7 +1,7 @@
 # Capstone Project: File Manager CLI
 ## Chapter 69: Directory Operations
 
-### 1. Introduction
+## 1. Introduction
 Directories organize files. Our CLI should allow:  
 - Creating directories  
 - Listing contents  
@@ -9,7 +9,7 @@ Directories organize files. Our CLI should allow:
 
 ---
 
-### 2. Creating Directories
+## 2. Creating Directories
 ```python
 import os
 
@@ -23,7 +23,7 @@ def create_directory(path):
 
 ---
 
-### 3. Listing Contents
+## 3. Listing Contents
 ```python
 def list_directory(path):
     try:
@@ -35,14 +35,14 @@ def list_directory(path):
 
 ---
 
-### 4. Getting Current Working Directory
+## 4. Getting Current Working Directory
 ```python
 print("Current directory:", os.getcwd())
 ```
 
 ---
 
-### 5. Changing Directory (optional)
+## 5. Changing Directory (optional)
 ```python
 os.chdir("..")
 print("Now in:", os.getcwd())
@@ -50,7 +50,7 @@ print("Now in:", os.getcwd())
 
 ---
 
-### 6. Integrating with CLI
+## 6. Integrating with CLI
 ```python
 if args.command == "list":
     list_directory(args.path or ".")
@@ -60,6 +60,6 @@ elif args.command == "mkdir":
 
 ---
 
-### 7. Next Steps
+## 7. Next Steps
 ✅ Directory operations are working.  
 Next: **Search and filters** for files.

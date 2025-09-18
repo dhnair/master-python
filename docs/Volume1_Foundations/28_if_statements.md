@@ -1,13 +1,12 @@
-# Volume 1: Foundations
-## Chapter 28: if Statements
+# Chapter 28: if Statements
 
-### 1. Introduction
+## 1. Introduction
 The **if statement** is used to make decisions in Python.  
 It allows your program to execute certain code only if a condition is true.  
 
 ---
 
-### 2. Basic if Statement
+## 2. Basic if Statement
 ```python
 age = 18
 
@@ -22,7 +21,7 @@ You are an adult
 
 ---
 
-### 3. Indentation Matters
+## 3. Indentation Matters
 Python uses **indentation** (spaces) to define blocks of code.  
 
 ❌ Wrong:
@@ -39,7 +38,7 @@ if True:
 
 ---
 
-### 4. Using Comparison Operators in if
+## 4. Using Comparison Operators in if
 ```python
 temperature = 25
 
@@ -53,7 +52,7 @@ if temperature == 25:
 
 ---
 
-### 5. if with Boolean Variables
+## 5. if with Boolean Variables
 ```python
 is_logged_in = True
 
@@ -63,7 +62,7 @@ if is_logged_in:
 
 ---
 
-### 6. if with Expressions
+## 6. if with Expressions
 Any expression that evaluates to `True` or `False` can be used:
 
 ```python
@@ -75,7 +74,7 @@ if name:   # non-empty strings are True
 
 ---
 
-### 7. Nested if Statements
+## 7. Nested if Statements
 You can put an `if` inside another `if`:
 
 ```python
@@ -89,7 +88,7 @@ if age >= 18:
 
 ---
 
-### 8. Common Mistakes
+## 8. Common Mistakes
 - Forgetting the colon (`:`) after the condition.  
 - Misusing `=` instead of `==`:
 
@@ -103,7 +102,7 @@ if x == 5:   # ✅ correct
 
 ---
 
-### 9. Practical Example
+## 9. Practical Example
 ```python
 password = "python123"
 user_input = "python123"
@@ -114,6 +113,6 @@ if user_input == password:
 
 ---
 
-### 10. Next Steps
+## 10. Next Steps
 ✅ You now know how to use `if` statements for decision-making.  
 In the next chapter, we’ll expand on this with **elif and else** clauses.
