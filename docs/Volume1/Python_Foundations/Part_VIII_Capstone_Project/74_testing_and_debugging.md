@@ -1,5 +1,4 @@
-# Capstone Project: File Manager CLI
-## Chapter 74: Testing and Debugging
+# Chapter 74: Testing and Debugging
 
 ## 1. Introduction
 Testing ensures our program works as expected.  

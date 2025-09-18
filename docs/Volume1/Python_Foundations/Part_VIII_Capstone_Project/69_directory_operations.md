@@ -1,5 +1,4 @@
-# Capstone Project: File Manager CLI
-## Chapter 69: Directory Operations
+# Chapter 69: Directory Operations
 
 ## 1. Introduction
 Directories organize files. Our CLI should allow:  

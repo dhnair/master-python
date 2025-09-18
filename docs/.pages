@@ -1,8 +1,0 @@
-# This file is docs/.pages
-title: ""
-nav:
-  - Home: index.md
-  - Contributing Guidelines: CONTRIBUTING.md
-  - License for Master Python Curriculum: LICENSE.md
-  - Volume 1 - Python Foundations: Volume1_Foundations/
-

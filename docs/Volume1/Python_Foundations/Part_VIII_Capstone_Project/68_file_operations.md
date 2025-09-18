@@ -1,5 +1,4 @@
-# Capstone Project: File Manager CLI
-## Chapter 68: File Operations
+# Chapter 68: File Operations
 
 ## 1. Introduction
 File operations are core to any file manager.  

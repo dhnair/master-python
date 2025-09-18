@@ -1,5 +1,4 @@
-# Capstone Project: File Manager CLI
-## Chapter 75: Final Wrap-up
+# Chapter 75: Final Wrap-up
 
 ## 1. Introduction
 Congratulations! You have completed the File Manager CLI project.  

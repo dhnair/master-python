@@ -38,7 +38,7 @@ The curriculum is divided into **8 volumes**:
 
 ## `🚀` How to Get Started
 
-- Begin with [Volume 1: Python Foundations](Volume1_Foundations/index.md).  
+- Begin with [Volume 1: Python Foundations]
 - Each chapter is **short and focused** on one concept.  
 - At the end of each volume, a **Capstone Project** brings everything together.  
 

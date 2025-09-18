@@ -1,5 +1,4 @@
-# Capstone Project: File Manager CLI
-## Chapter 71: Error Handling
+# Chapter 71: Error Handling
 
 ## 1. Introduction
 Robust programs handle errors gracefully.  
