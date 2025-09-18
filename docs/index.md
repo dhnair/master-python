@@ -1,6 +1,6 @@
-# Master Python Curriculum
-
-Welcome to the **Master Python Curriculum**, an open-source learning project designed to take you from **absolute beginner** in Python all the way to **advanced programming** and even **quantum computing**.
+# Curriculum
+---
+Welcome to the **Master Python**, an open-source learning project designed to take you from **absolute beginner** in Python all the way to **advanced programming** and even **quantum computing**.
 
 This is not just another tutorial series. It is a **structured curriculum** with volumes, chapters, and projects — designed for gradual learning.
 
