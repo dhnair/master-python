@@ -1,11 +1,12 @@
 title: "Python Foundations: All Chapters"
 arrange:
     - index.md
-    - Part_I_Getting_Started
-    - Part_II_Core_Basics
-    - Part_III_Control_Flow
-    - Part_IV_Functions_and_Modules
-    - Part_V_Working_with_Files_and_Errors
-    - Part_VI_Practical_Tools
-    - Part_VII_Object_Oriented_Programming
-    - Part_VIII_Capstone_Project
+    - part_i_getting_started
+    - part_ii_core_basics
+    - part_iii_control_flow
+    - part_iv_functions_and_modules
+    - part_v_working_with_files_and_errors
+    - part_vi_practical_tools
+    - part_vii_object_oriented_programming
+    - part_viii_capstone_project
+
